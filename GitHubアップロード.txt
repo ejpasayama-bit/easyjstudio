@@ -1,20 +1,11 @@
 VSCodeのターミナル（Ctrl + @ で開きます）で、以下のコマンドを順番に打ち込んでください。
 
 
-# 1. gitの初期化（まだの場合）
-git init
-
-# 2. すべてのファイルをステージングに追加
+# 1. すべてのファイルをステージングに追加
 git add .
 
-# 3. 最初のコミット（記録）を作成
+# 2. 最初のコミット（記録）を作成
 git commit -m "Initial commit: EasyJ Studio Website with i18n"
 
-# 4. メインブランチの名前を確定
-git branch -M main
-
-# 5. GitHubのリポジトリと紐付け
-git remote add origin https://github.com/ejpasayama-bit/easyjstudio.git
-
-# 6. GitHubにアップロード！
+# 3. GitHubにアップロード！
 git push -u origin main

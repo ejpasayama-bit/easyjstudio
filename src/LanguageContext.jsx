@@ -151,7 +151,12 @@ const dictionaries = {
 const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
-  const [lang, setLang] = useState('en'); 
+  const [lang, setLang] = useState(() => {
+    // ブラウザの言語設定を取得
+    const browserLang = navigator.language || navigator.userLanguage;
+    // 'ja' で始まっていれば日本語(jp)、それ以外は英語(en)
+    return browserLang.startsWith('ja') ? 'jp' : 'en';
+  });
   const t = dictionaries[lang];
   const toggleLang = () => setLang((prev) => (prev === 'en' ? 'jp' : 'en'));
 

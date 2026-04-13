@@ -20,7 +20,7 @@ const dictionaries = {
         },
         {
           tag: "Game / Culture",
-          desc: "A vocabulary game for Weebs utilizing Live2D. Learn new languages through internet slang and VTuber culture."
+          desc: "A Live2D-powered vocabulary game for Japanese pop culture enthusiasts. Discover a new way to learn through internet slang and VTuber culture."
         },
         {
           tag: "Utility / Analysis",
@@ -92,7 +92,7 @@ const dictionaries = {
         },
         {
           tag: "Game / Culture",
-          desc: "Live2Dを活用した、Weeb（海外の日本ファン）向けの語彙学習ゲーム。ネットスラングやVTuber文化を通じた新しい言語学習を提供。"
+          desc: "Live2Dを活用した、日本ポップカルチャー愛好家のための語彙学習ゲーム。ネットスラングやVTuber文化を通じて、新しい学習体験を提供します。"
         },
         {
           tag: "Utility / Analysis",

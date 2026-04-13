@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <>
       {/* Hero Section */}
-      <section className="py-24 px-8 text-center bg-gradient-to-b from-white to-slate-50">
+      <section className="py-24 pb-12 px-8 text-center bg-gradient-to-b from-white to-slate-50">
         <div className="max-w-3xl mx-auto">
           {/* 改行（\n）を反映させるための処理 */}
           <h2 className="text-4xl md:text-5xl font-bold mb-8 leading-[1.2] tracking-tight whitespace-pre-wrap">
@@ -45,7 +45,7 @@ const Home = () => {
       </section>
 
       {/* Projects Section */}
-      <section className="py-20 px-8 max-w-6xl mx-auto">
+      <section className="pt-8 pb-20 px-8 max-w-6xl mx-auto">
         <div className="flex items-center gap-4 mb-16">
           <h3 className="text-2xl font-bold">{t.home.projectsTitle}</h3>
           <div className="h-[1px] bg-slate-200 flex-grow"></div>

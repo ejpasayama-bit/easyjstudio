@@ -13,7 +13,7 @@ git commit -m "Initial commit: EasyJ Studio Website with i18n"
 # 4. メインブランチの名前を確定
 git branch -M main
 
-# 5. GitHubのリポジトリと紐付け（URLの部分は作成したものに書き換えてください）
+# 5. GitHubのリポジトリと紐付け
 git remote add origin https://github.com/ejpasayama-bit/easyjstudio.git
 
 # 6. GitHubにアップロード！

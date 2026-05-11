@@ -25,6 +25,10 @@ const dictionaries = {
         {
           tag: "Utility / Analysis",
           desc: "An analysis tool that visualizes trading thought processes and mentality. Supports trader growth based on personal experience."
+        },
+        {
+          tag: "Utility / Streaming",
+          desc: "A dedicated utility tool to prevent streaming accidents. It visualizes and automates complex pre-stream checks."
         }
       ]
     },
@@ -95,8 +99,8 @@ const dictionaries = {
           desc: "Live2Dを活用した、日本ポップカルチャー愛好家のための語彙学習ゲーム。ネットスラングやVTuber文化を通じて、新しい学習体験を提供します。"
         },
         {
-          tag: "Utility / Analysis",
-          desc: "トレード時の思考プロセスとメンタルを可視化する分析ツール。自らの経験に基づき、トレーダーの成長をサポートします。"
+          tag: "Utility / Streaming",
+          desc: "配信事故を未然に防ぐストリーマー専用ツール。煩雑な配信前の設定確認を可視化し、チェック作業を自動化します。"
         }
       ]
     },

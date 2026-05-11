@@ -1,11 +1,14 @@
-VSCodeのターミナル（Ctrl + @ で開きます）で、以下のコマンドを順番に打ち込んでください。
+VSCodeのターミナル（Ctrl+@）
 
+# 1.移動
+d:
+cd easyjstudio 
 
-# 1. すべてのファイルをステージングに追加
+# 2. すべてのファイルをステージングに追加
 git add .
 
-# 2. 最初のコミット（記録）を作成
+# 3. 最初のコミット（記録）を作成
 git commit -m "Initial commit: EasyJ Studio Website with i18n"
 
-# 3. GitHubにアップロード！
+# 4. GitHubにアップロード！
 git push -u origin main

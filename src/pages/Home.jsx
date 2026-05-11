@@ -8,7 +8,7 @@ const Home = () => {
   const projectsData = [
     {
       id: "01",
-      title: "ListeningAdventure",
+      title: "Listening Adventure",
       img: "/listening-adventure.png",
       color: "bg-indigo-100 text-indigo-600",
       link: "#"
@@ -24,6 +24,16 @@ const Home = () => {
       id: "03",
       title: "FX Trading Journal",
       img: "/fx-journal.png",
+      color: "bg-emerald-100 text-emerald-600",
+      link: "#"
+    },
+    {
+      id: "04",
+      title: "StreamGreen",
+      img: {
+        jp: "/streamgreen-jp.png", // 日本語版の画像
+        en: "/streamgreen-en.png"  // 英語版の画像
+      },
       color: "bg-emerald-100 text-emerald-600",
       link: "#"
     }
@@ -52,40 +62,46 @@ const Home = () => {
         </div>
         
         <div className="grid md:grid-cols-3 gap-10">
-          {projectsData.map((project, index) => (
-            <a 
-              key={project.id} 
-              href={project.link}
-              className="group block bg-white overflow-hidden rounded-2xl shadow-sm border border-slate-100 transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-2"
-            >
-              <div className="h-52 bg-slate-200 overflow-hidden relative">
-                <img 
-                  src={project.img} 
-                  alt={project.title} 
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                  onError={(e) => { e.target.onerror = null; e.target.src = `https://via.placeholder.com/600x400?text=${project.title}`; }} 
-                />
-                <div className="absolute top-4 left-4">
-                  {/* 言語辞書の配列から、該当するインデックスのtagを呼び出す */}
-                  <span className={`text-[10px] font-bold px-2 py-1 rounded shadow-sm ${project.color} bg-white/90 backdrop-blur`}>
-                    {t.home.projects[index].tag}
-                  </span>
-                </div>
-              </div>
+          {projectsData.map((project, index) => {
+            // ここで画像のソースを決定します
+            // imgがオブジェクト形式（{jp: ..., en: ...}）なら今の言語に合わせて選択、そうでなければそのまま文字列として扱います
+            const imageSrc = typeof project.img === 'object' ? project.img[lang] : project.img;
 
-              <div className="p-7">
-                <div className="text-xs font-bold text-slate-400 mb-2">{project.id}</div>
-                <h4 className="text-xl font-bold mb-3 group-hover:text-indigo-600 transition-colors">{project.title}</h4>
-                <p className="text-slate-600 text-sm leading-relaxed mb-6">
-                  {/* 言語辞書の配列から、該当するインデックスのdescを呼び出す */}
-                  {t.home.projects[index].desc}
-                </p>
-                <div className="pt-4 border-t border-slate-50 flex justify-end">
-                  <span className="text-xs font-bold text-indigo-600">{t.home.viewDetails}</span>
+            return (
+              <a 
+                key={project.id} 
+                href={project.link}
+                className="group block bg-white overflow-hidden rounded-2xl shadow-sm border border-slate-100 transition-all duration-300 hover:shadow-2xl hover:shadow-indigo-500/10 hover:-translate-y-2"
+              >
+                <div className="h-52 bg-slate-200 overflow-hidden relative">
+                  <img 
+                    src={imageSrc} 
+                    alt={project.title} 
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    onError={(e) => { e.target.onerror = null; e.target.src = `https://via.placeholder.com/600x400?text=${project.title}`; }} 
+                  />
+                  <div className="absolute top-4 left-4">
+                    {/* 言語辞書の配列から、該当するインデックスのtagを呼び出す */}
+                    <span className={`text-[10px] font-bold px-2 py-1 rounded shadow-sm ${project.color} bg-white/90 backdrop-blur`}>
+                      {t.home.projects[index].tag}
+                    </span>
+                  </div>
                 </div>
-              </div>
-            </a>
-          ))}
+
+                <div className="p-7">
+                  <div className="text-xs font-bold text-slate-400 mb-2">{project.id}</div>
+                  <h4 className="text-xl font-bold mb-3 group-hover:text-indigo-600 transition-colors">{project.title}</h4>
+                  <p className="text-slate-600 text-sm leading-relaxed mb-6">
+                    {/* 言語辞書の配列から、該当するインデックスのdescを呼び出す */}
+                    {t.home.projects[index].desc}
+                  </p>
+                  <div className="pt-4 border-t border-slate-50 flex justify-end">
+                    <span className="text-xs font-bold text-indigo-600">{t.home.viewDetails}</span>
+                  </div>
+                </div>
+              </a>
+            );
+          })}
         </div>
       </section>
     </>

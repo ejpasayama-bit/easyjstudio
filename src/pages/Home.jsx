@@ -9,21 +9,21 @@ const Home = () => {
     {
       id: "01",
       title: "Listening Adventure",
-      img: "/listening-adventure.png",
+      img: "/listening-adventure.webp",
       color: "bg-indigo-100 text-indigo-600",
       link: "#"
     },
     {
       id: "02",
       title: "VTuber Vocabulary Game",
-      img: "/vtuber-game.png",
+      img: "/vtuber-game.webp",
       color: "bg-pink-100 text-pink-600",
       link: "#"
     },
     {
       id: "03",
       title: "FX Trading Journal",
-      img: "/fx-journal.png",
+      img: "/fx-journal.webp",
       color: "bg-emerald-100 text-emerald-600",
       link: "#"
     },
@@ -31,8 +31,8 @@ const Home = () => {
       id: "04",
       title: "StreamGreen",
       img: {
-        jp: "/streamgreen-jp.png", // 日本語版の画像
-        en: "/streamgreen-en.png"  // 英語版の画像
+        jp: "/streamgreen-jp.webp", // 日本語版の画像
+        en: "/streamgreen-en.webp"  // 英語版の画像
       },
       color: "bg-emerald-100 text-emerald-600",
       link: "#"

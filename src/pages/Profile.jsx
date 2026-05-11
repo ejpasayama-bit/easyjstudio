@@ -8,7 +8,7 @@ const Profile = () => {
       <div className="bg-white p-10 rounded-3xl shadow-sm border border-slate-100">
         <div className="flex items-center gap-6 mb-8">
           <div className="w-20 h-20 bg-indigo-100 rounded-full flex items-center justify-center text-3xl shadow-inner">
-            <img src="/profile.jpg" alt="Profile" />
+            <img src="/profile.webp" alt="Profile" />
           </div>
           <div>
             <h3 className="text-2xl font-bold">{t.profile.name}</h3>

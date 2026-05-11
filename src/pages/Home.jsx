@@ -2,7 +2,7 @@ import React from 'react';
 import { useLanguage } from '../LanguageContext'; // ← 追加
 
 const Home = () => {
-  const { t } = useLanguage(); // ← 辞書を呼び出す
+  const { lang, t } = useLanguage(); // ← 辞書を呼び出す
 
   // プロジェクトの基本データ（タイトルや画像は言語共通なのでここに残す）
   const projectsData = [

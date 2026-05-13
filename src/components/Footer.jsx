@@ -5,6 +5,7 @@ const Footer = () => (
       {/* ストア ＆ SNSリンク (1行にまとめる) */}
       <div className="flex flex-wrap justify-center items-center gap-x-8 gap-y-4 mb-8 text-sm font-bold text-slate-600">
         <a href="#" className="hover:text-black transition-colors">Steam</a>
+        <a href="https://apps.microsoft.com/search/publisher?name=EasyJ%20Studio" className="hover:text-black transition-colors">Microsoft Store</a>
         <a href="#" className="hover:text-emerald-600 transition-colors">Google Play</a>
         <a href="#" className="hover:text-blue-500 transition-colors">App Store</a>
         

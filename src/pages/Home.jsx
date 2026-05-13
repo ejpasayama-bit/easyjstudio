@@ -35,7 +35,7 @@ const Home = () => {
         en: "/streamgreen-en.webp"  // 英語版の画像
       },
       color: "bg-emerald-100 text-emerald-600",
-      link: "#"
+      link: "https://apps.microsoft.com/detail/9P67P9W0W4ZV"
     }
   ];
 

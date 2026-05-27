@@ -36,7 +36,14 @@ const Home = () => {
       },
       color: "bg-emerald-100 text-emerald-600",
       link: "https://apps.microsoft.com/detail/9P67P9W0W4ZV"
-    }
+    },
+    {
+      id: "05",
+      title: "Auto Lesson Plan",
+      img: "",
+      color: "bg-emerald-100 text-emerald-600",
+      link: "#"
+    }    
   ];
 
   return (

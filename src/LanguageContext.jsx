@@ -19,7 +19,7 @@ const dictionaries = {
           desc: "A story-driven listening app for JLPT N5. Master listening comprehension through fun, academically-backed methods."
         },
         {
-          tag: "Game / Culture",
+          tag: "Language / Game",
           desc: "A Live2D-powered vocabulary game for Japanese pop culture enthusiasts. Discover a new way to learn through internet slang and VTuber culture."
         },
         {
@@ -29,6 +29,10 @@ const dictionaries = {
         {
           tag: "Utility / Streaming",
           desc: "An analysis tool that visualizes trading thought processes and mentality. Supports trader growth based on personal experience."
+        },
+        {
+          tag: "Utility / Teaching",
+          desc: "An AI-powered lesson planning software. It eliminates the reliance on individual teaching skills to deliver high-quality lessons to learners."
         }
       ]
     },
@@ -43,7 +47,7 @@ const dictionaries = {
       title: "Profile",
       name: "FUKAYA",
       role: "App Developer / Japanese Language Teacher",
-      description: "While developing apps independently, I also teach as a Japanese language teacher. Currently distributing 'ListeningAdventure (Temp)' as a mobile app and 'SlanGame (Temp)' on Steam.",
+      description: "While developing apps independently, I also teach as a Japanese language teacher. Currently distributing 'ListeningAdventure' as a mobile app and 'SlanGame (Temp)' on Steam.",
       specialty: "Tech Stack: React, Unity, Tailwind CSS, Firebase"
     },
     guidelines: {
@@ -95,7 +99,7 @@ const dictionaries = {
           desc: "JLPT N5レベルを対象とした、ストーリー主導のリスニング学習アプリ。学術的根拠に基づき、楽しみながら「聴解」をマスターします。"
         },
         {
-          tag: "Game / Culture",
+          tag: "Language / Game",
           desc: "Live2Dを活用した、日本ポップカルチャー愛好家のための語彙学習ゲーム。ネットスラングやVTuber文化を通じて、新しい学習体験を提供します。"
         },
         {
@@ -105,6 +109,10 @@ const dictionaries = {
         {
           tag: "Utility / Streaming",
           desc: "配信事故を未然に防ぐストリーマー専用ツール。煩雑な配信前の設定確認を可視化し、チェック作業を自動化します。"
+        },
+        {
+          tag: "Utility / Teaching",
+          desc: "AIによる教案作成支援ソフト。教師スキルの属人化を排除し、学習者に質の高い授業を提供します。"
         }
       ]
     },
@@ -120,7 +128,7 @@ const dictionaries = {
       name: "FUKAYA",
       role: "アプリ開発者 / 日本語教師",
       // ↓ プロフィールを更新しました！
-      description: "個人でアプリを開発する傍ら、日本語教師として教壇に立っています。\n「ListeningAdventure（仮）」をスマホアプリとして、「SlanGame（仮）」をSteamにて配信中。",
+      description: "個人でアプリを開発する傍ら、日本語教師として教壇に立っています。\n「ListeningAdventure」をスマホアプリとして、「SlanGame（仮）」をSteamにて配信中。",
       specialty: "技術スタック: React, Unity, Tailwind CSS, Firebase"
     },
     guidelines: {

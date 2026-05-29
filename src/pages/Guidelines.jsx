@@ -21,6 +21,7 @@ const Guidelines = () => {
           <h3 className="text-xl font-bold border-b pb-2 mb-4">{t.guidelines.requestTitle}</h3>
           <ul className="list-disc pl-5 space-y-2">
             <li><strong>{t.guidelines.requestLi1}</strong></li>
+            <li><strong>{t.guidelines.requestLi2}</strong></li>
           </ul>
         </section>
 

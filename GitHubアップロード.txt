@@ -1,8 +1,7 @@
 VSCodeのターミナル（Ctrl+@）
 
 # 1.移動
-d:
-cd easyjstudio 
+cd easyjstudio
 
 # 2. すべてのファイルをステージングに追加
 git add .

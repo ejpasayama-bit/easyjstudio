@@ -172,6 +172,26 @@ const Local = () => {
           )}
           
           <form onSubmit={handleSubmit} className="space-y-6">
+            <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 border-l-4 border-l-indigo-500 mb-8">
+              <label className="block text-sm font-bold text-slate-700 mb-2">
+                金融機関様などからのご紹介の場合（任意）
+              </label>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input 
+                  type="text" 
+                  name="introduction_bank" 
+                  className="w-full px-4 py-2.5 rounded-xl border border-slate-200 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all text-sm" 
+                  placeholder="例：西尾信用金庫 〇〇支店" 
+                />
+                <input 
+                  type="text" 
+                  name="introduction_staff" 
+                  className="w-full px-4 py-2.5 rounded-xl border border-slate-200 bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all text-sm" 
+                  placeholder="例：ご担当者様のお名前（わかる範囲で）" 
+                />
+              </div>
+            </div>
+
             <div>
               <label className="block text-sm font-bold text-slate-700 mb-2">会社名 / 屋号</label>
               {/* 各inputに name 属性を追加しています */}

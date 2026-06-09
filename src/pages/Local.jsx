@@ -102,7 +102,7 @@ const Local = () => {
               </p>
               <div>
                 <a 
-                  href="https://demo.easyjstudio.com/demo/mikawa.html" 
+                  href="https://easyjstudio.com/demo/mikawa.html" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-bold py-2.5 px-5 rounded-xl text-sm transition-all duration-200 group"

@@ -122,14 +122,30 @@ const Local = () => {
             </div>
           </div>
 
-          {/* 業務効率化カード */}
-          <div className="flex flex-col md:flex-row gap-6 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 border-l-4 border-l-emerald-500">
-            <div className="md:w-1/3 font-bold text-lg text-emerald-900">社内業務の<br/>デジタル化・効率化</div>
-            <div className="md:w-2/3 text-slate-600 leading-relaxed">
-              「Excelや紙での管理に限界を感じている」という課題に対し、スマホで動くシンプルな勤怠管理アプリなど、現場に最適化した業務システムをオーダーメイドで構築します。
+          {/* 業務効率化カード（モックアップ画像付き） */}
+          <div className="flex flex-col md:flex-row gap-8 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 border-l-4 border-l-emerald-500">
+            <div className="md:w-1/3">
+              <div className="font-bold text-lg text-emerald-900 mb-4">社内業務の<br/>デジタル化・効率化</div>
+              <p className="text-slate-600 leading-relaxed text-sm mb-6">
+                「Excelや紙での管理に限界を感じている」という課題に対し、スマホで動くシンプルな勤怠管理アプリなど、現場に最適化した業務システムをオーダーメイドで構築します。
+              </p>
+              <div className="bg-emerald-50 text-emerald-800 text-xs font-bold p-3 rounded-lg border border-emerald-100">
+                💡 現場のIT不慣れなスタッフ様でも絶対に迷わないよう、あえて機能を削ぎ落とし、直感的な巨大ボタンのみのシンプル設計にしています。
+              </div>
+            </div>
+            
+            {/* モックアップ画像エリア */}
+            <div className="md:w-2/3 flex justify-center gap-4">
+              {/* 勤怠画面 */}
+              <div className="relative w-1/2 max-w-[200px] rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.12)] border-4 border-slate-800">
+                <img src="/ss_work.png" alt="勤怠管理アプリ画面" className="w-full h-auto block" />
+              </div>
+              {/* ダッシュボード画面 */}
+              <div className="relative w-1/2 max-w-[200px] rounded-2xl overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.12)] border-4 border-slate-800">
+                <img src="/ss_order.png" alt="売上ダッシュボード画面" className="w-full h-auto block" />
+              </div>
             </div>
           </div>
-        </div>
       </section>
 
       {/* ④ お問い合わせフォーム */}

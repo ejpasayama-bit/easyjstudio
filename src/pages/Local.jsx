@@ -93,13 +93,36 @@ const Local = () => {
         </div>
 
         <div className="space-y-6">
+          {/* HP制作カード（デモ画面リンクを追加） */}
           <div className="flex flex-col md:flex-row gap-6 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 border-l-4 border-l-indigo-500">
             <div className="md:w-1/3 font-bold text-lg text-indigo-900">企業向けWebサイト（HP）の<br/>企画・制作・保守</div>
-            <div className="md:w-2/3 text-slate-600 leading-relaxed">
-              製造業、飲食店、ローカルビジネスに特化した、信頼感と集客力を高めるWebサイトを制作します。
+            <div className="md:w-2/3 flex flex-col justify-between">
+              <p className="text-slate-600 leading-relaxed mb-6">
+                製造業、飲食店、ローカルビジネスに特化した、信頼感と集客力を高めるWebサイトを制作します。
+              </p>
+              <div>
+                <a 
+                  href="https://demo.easyjstudio.com/demo/mikawa.html" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center bg-indigo-50 hover:bg-indigo-100 text-indigo-700 font-bold py-2.5 px-5 rounded-xl text-sm transition-all duration-200 group"
+                >
+                  <span>制作デモ画面（サンプル）を見る</span>
+                  {/* 右矢印アイコン。ホバー時に少し右に動くアニメーション付き */}
+                  <svg 
+                    className="w-4 h-4 ml-2 transition-transform duration-200 group-hover:translate-x-1" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
 
+          {/* 業務効率化カード */}
           <div className="flex flex-col md:flex-row gap-6 bg-white p-8 rounded-2xl shadow-sm border border-slate-100 border-l-4 border-l-emerald-500">
             <div className="md:w-1/3 font-bold text-lg text-emerald-900">社内業務の<br/>デジタル化・効率化</div>
             <div className="md:w-2/3 text-slate-600 leading-relaxed">

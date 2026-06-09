@@ -146,6 +146,7 @@ const Local = () => {
               </div>
             </div>
           </div>
+        </div>
       </section>
 
       {/* ④ お問い合わせフォーム */}

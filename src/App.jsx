@@ -8,6 +8,7 @@ import Concept from './pages/Concept';
 import Profile from './pages/Profile';
 import Contact from './pages/Contact';
 import Guidelines from './pages/Guidelines';
+import Local from './pages/Local';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/profile" element={<Profile />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/guidelines" element={<Guidelines />} />
+            <Route path="/local" element={<Local />} />
           </Routes>
         </main>
         <Footer />

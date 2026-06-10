@@ -17,7 +17,7 @@ const Contact = () => {
 
     try {
       // ご自身のFormspree URLにデータを送る
-      const response = await fetch("https://formspree.io/f/xlgarqkv", {
+      const response = await fetch("/api/form", {
         method: "POST",
         body: data,
         headers: {

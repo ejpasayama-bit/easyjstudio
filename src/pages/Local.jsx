@@ -14,7 +14,7 @@ const Local = () => {
 
     try {
       // 既存のContactフォームと同じFormspreeのURLを使用
-      const response = await fetch("https://formspree.io/f/xlgarqkv", {
+      const response = await fetch("/api/form", {
         method: "POST",
         body: data,
         headers: {

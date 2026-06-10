@@ -1,0 +1,8 @@
+name = "easyjstudio-form"
+main = "src/worker.js" # ★ここを新しく作ったworker.jsに指定！
+compatibility_date = "2026-06-10"
+
+# Reactのビルド結果（静的アセット）を配る設定
+[assets]
+directory = "./dist"
+binding = "ASSETS"

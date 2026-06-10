@@ -26,7 +26,7 @@ export async function onRequestPost(context) {
       subject = "【地元企業案件】特設ページからのお問い合わせ";
       emailBody = `以下の内容でローカル案件のお問い合わせがありました。\n\n【会社名/屋号】: ${company}\n【お名前】: ${name}\n【メールアドレス】: ${email}\n【お電話番号】: ${phone}\n\n【ご紹介元金融機関】: ${bank}\n【ご紹介担当者様】: ${staff}\n\n【ご相談内容】:\n${message}`;
     } else {
-      toEmail = "ejp.asayama@gmail.com";
+      toEmail = "info@easyjstudio.com";
       subject = "【一般/ゲーム】公式サイトからのお問い合わせ";
       emailBody = `以下の内容でお問い合わせがありました。\n\n【お名前】: ${name}\n【メールアドレス】: ${email}\n\n【メッセージ内容】:\n${message}`;
     }
@@ -39,7 +39,7 @@ export async function onRequestPost(context) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: "EasyJ Studio System <postmaster@easyjstudio.com>",
+        from: "${name} <postmaster@easyjstudio.com>",
         to: toEmail,
         subject: subject,
         text: emailBody,

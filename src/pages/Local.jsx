@@ -13,7 +13,6 @@ const Local = () => {
     const data = new FormData(form);
 
     try {
-      // 既存のContactフォームと同じFormspreeのURLを使用
       const response = await fetch("/api/form", {
         method: "POST",
         body: data,
@@ -172,6 +171,7 @@ const Local = () => {
           )}
           
           <form onSubmit={handleSubmit} className="space-y-6">
+            <input type="hidden" name="form_type" value="local" />
             <div className="bg-slate-50 p-5 rounded-2xl border border-slate-200 border-l-4 border-l-indigo-500 mb-8">
               <label className="block text-sm font-bold text-slate-700 mb-2">
                 金融機関様などからのご紹介の場合（任意）

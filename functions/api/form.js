@@ -39,7 +39,7 @@ export async function onRequestPost(context) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        from: `${name} <${email}>`,
+        from: `${name} <postmaster@easyjstudio.com>`,
         to: toEmail,
         subject: subject,
         text: emailBody,

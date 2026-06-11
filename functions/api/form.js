@@ -41,6 +41,7 @@ export async function onRequestPost(context) {
       body: JSON.stringify({
         from: `${name} <postmaster@easyjstudio.com>`,
         to: toEmail,
+        reply_to: email,
         subject: subject,
         text: emailBody,
       }),

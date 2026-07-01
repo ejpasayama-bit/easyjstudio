@@ -24,6 +24,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/guidelines" element={<Guidelines />} />
             <Route path="/local" element={<Local />} />
+            <Route path="/listening-adventure" element={<ListeningAdventure />} />
           </Routes>
         </main>
         <Footer />

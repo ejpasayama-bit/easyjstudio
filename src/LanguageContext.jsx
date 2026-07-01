@@ -80,6 +80,27 @@ const dictionaries = {
       labelEmail: "Email",
       labelMessage: "Message",
       send: "Send"
+    },
+    lalp: {
+      heroTitle: "Empowering learners.",
+      heroSubtitle: "A 100% listening-focused app.",
+      ctaButton: "Try the Free Demo!",
+      introTitle: "Struggling to find time for Japanese study while working?",
+      introText: "Build your N5 listening skills effortlessly in your spare time, all while playing a game.",
+      featuresTitle: "Core Features",
+      feature1Title: "100% Listening Focused!",
+      feature1Desc: "Bite-sized, 5-question stages make daily study easy. Perfect for busy workers and students!",
+      feature2Title: "Game + Japanese Learning!",
+      feature2Desc: "Learn through an engaging story-driven game. Say goodbye to boring, time-consuming study sessions!",
+      feature3Title: "Supervised by Prof. Isono!",
+      feature3Desc: "Academically supervised for real results. Practical content designed to pass the JLPT, J.TEST, NAT-TEST, JPT, etc!",
+      creditTitle: "Developer & Supervisor",
+      devRole: "Japanese Teacher / EdTech Creator",
+      devName: "Developer: N. Fukaya",
+      supRole: "Prof. & Dean, Int'l Studies, NUCB\nPh.D. in Japanese Language Education",
+      supName: "Supervisor: Eiji Isono",
+      releaseDate: "Scheduled Release: February 2027",
+      bottomCtaTitle: "Ready for your listening adventure?"
     }
   },
   jp: {
@@ -162,6 +183,27 @@ const dictionaries = {
       labelEmail: "メールアドレス",
       labelMessage: "メッセージ",
       send: "送信する"
+    },
+    lalp: {
+      heroTitle: "学習者の道をひらく",
+      heroSubtitle: "リスニング特化型学習アプリ",
+      ctaButton: "体験版はコチラ！",
+      introTitle: "「働きながらの日本語学習、時間がなくて大変ではありませんか？」",
+      introText: "スキマ時間を使って、ゲーム感覚で無理なくN5レベルの聴解力を身につけましょう。",
+      featuresTitle: "3つの特徴",
+      feature1Title: "リスニング特化！",
+      feature1Desc: "地域の外国人就労者や海外学習者へ、良質なリスニング機会を提供します。1ステージ5問のコンパクト設計で、毎日のスキマ時間に無理なく学習を継続できます。",
+      feature2Title: "ゲーム＋日本語学習！",
+      feature2Desc: "ストーリーのあるゲームで学習することができるため、「言語学習＝時間を取る」の壁を壊します。",
+      feature3Title: "磯野教授監修！",
+      feature3Desc: "磯野教授監修のため、ただ楽しくゲーム感覚で行うだけではなくJLPT、J.TESTやNAT-TEST、JPTなどの試験の合格を目指した実践的な学習コンテンツとなっています。",
+      creditTitle: "開発・監修",
+      devRole: "日本語教師 / EdTechクリエイター",
+      devName: "開発：深谷",
+      supRole: "名古屋商科大学 国際学部 学部長／教授\n博士（日本語教育学）",
+      supName: "監修：磯野 英治",
+      releaseDate: "2027年2月リリース予定",
+      bottomCtaTitle: "さあ、リスニングの冒険に出かけよう！"
     }
   }
 };

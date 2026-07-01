@@ -11,7 +11,7 @@ const Home = () => {
       title: "Listening Adventure",
       img: "/listening-adventure.webp",
       color: "bg-indigo-100 text-indigo-600",
-      link: "#"
+      link: "/listening-adventure"
     },
     {
       id: "02",

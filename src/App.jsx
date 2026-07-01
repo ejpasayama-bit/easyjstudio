@@ -9,6 +9,7 @@ import Profile from './pages/Profile';
 import Contact from './pages/Contact';
 import Guidelines from './pages/Guidelines';
 import Local from './pages/Local';
+import ListeningAdventure from './pages/ListeningAdventure';
 
 function App() {
   return (

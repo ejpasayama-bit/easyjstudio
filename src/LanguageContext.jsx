@@ -185,7 +185,7 @@ const dictionaries = {
       send: "送信する"
     },
     lalp: {
-      heroTitle: "学習者の道をひらく\nリスニング アドベンチャー N5",
+      heroTitle: "学習者の道をひらく\n リスニング アドベンチャー N5",
       heroSubtitle: "リスニング特化型学習アプリ",
       ctaButton: "体験版はコチラ！",
       introTitle: "「働きながらの日本語学習、時間がなくて大変ではありませんか？」",

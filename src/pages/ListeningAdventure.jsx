@@ -9,7 +9,7 @@ const ListeningAdventure = () => {
       
       {/* 1. Hero Section */}
       <section className="pt-24 pb-16 px-8 max-w-5xl mx-auto text-center flex flex-col items-center">
-        <h1 className="text-4xl md:text-6xl font-extrabold text-slate-800 mb-4 tracking-tight">
+        <h1 className="text-4xl md:text-6xl font-extrabold text-slate-800 mb-4 tracking-tight whitespace-pre-wrap">
           {t.lalp.heroTitle}
         </h1>
         <p className="text-2xl md:text-3xl font-bold text-indigo-600 mb-10">

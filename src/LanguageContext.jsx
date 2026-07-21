@@ -102,7 +102,7 @@ const dictionaries = {
       releaseDate: "Scheduled Release: February 2027",
       bottomCtaTitle: "Ready for your listening adventure?",
       demo_play:"▼ Scan to Play Demo! ▼",
-      flyer_src: "/la_flyer.png",
+      flyer_src: "/la_flyer_en.png",
     }
   },
   jp: {
@@ -207,7 +207,7 @@ const dictionaries = {
       releaseDate: "2027年2月リリース予定",
       bottomCtaTitle: "さあ、リスニングの冒険に出かけよう！",
       demo_play:"▼ スマホで体験版をプレイ！ ▼",
-      flyer_src: "/la_flyer_en.png",
+      flyer_src: "/la_flyer.png",
     }
   }
 };

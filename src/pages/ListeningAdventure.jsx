@@ -30,7 +30,7 @@ const ListeningAdventure = () => {
         {/* PC用：QRコード表示（スマホサイズでは非表示、md: 以上でフレックス表示） */}
         <div className="hidden md:flex flex-col items-center mb-12">
           <span className="text-sm font-bold text-indigo-500 mb-3 tracking-wider">
-            ▼ スマートフォンでスキャンしてプレイ！ ▼
+            {t.lalp.demo_play}
           </span>
           <div className="bg-white p-4 rounded-3xl shadow-md border-2 border-indigo-50 hover:scale-105 transition-transform duration-300">
             <img 
@@ -154,7 +154,7 @@ const ListeningAdventure = () => {
 
         <div className="hidden md:flex flex-col items-center">
           <span className="text-sm font-bold text-slate-500 mb-3 tracking-wider">
-            ▼ スマートフォンでスキャンしてプレイ！ ▼
+            {t.lalp.demo_play}
           </span>
           <div className="bg-white p-4 rounded-3xl shadow-md border-2 border-slate-100 hover:scale-105 transition-transform duration-300">
             <img 

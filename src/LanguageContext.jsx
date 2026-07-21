@@ -100,7 +100,8 @@ const dictionaries = {
       supRole: "Prof. & Dean, Int'l Studies, NUCB\nPh.D. in Japanese Language Education",
       supName: "Supervisor: Eiji Isono",
       releaseDate: "Scheduled Release: February 2027",
-      bottomCtaTitle: "Ready for your listening adventure?"
+      bottomCtaTitle: "Ready for your listening adventure?",
+      demo_play:"▼ Scan to Play Demo! ▼"
     }
   },
   jp: {
@@ -203,7 +204,8 @@ const dictionaries = {
       supRole: "名古屋商科大学 国際学部 学部長／教授\n博士（日本語教育学）",
       supName: "監修：磯野 英治",
       releaseDate: "2027年2月リリース予定",
-      bottomCtaTitle: "さあ、リスニングの冒険に出かけよう！"
+      bottomCtaTitle: "さあ、リスニングの冒険に出かけよう！",
+      demo_play:"▼ スマホで体験版をプレイ！ ▼",
     }
   }
 };

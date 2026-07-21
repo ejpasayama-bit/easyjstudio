@@ -42,10 +42,10 @@ const ListeningAdventure = () => {
         </div>
         {/* ==================================== */}
 
-        {/* チラシ画像エリア（プレースホルダーから置き換え） */}
+        {/* チラシ画像エリア */}
         <div className="w-full max-w-3xl mx-auto bg-white rounded-3xl border-8 border-white shadow-xl overflow-hidden mt-8">
           <img 
-            src="/la_flyer.png" 
+            src={t.lalp.flyer_src}
             alt="Listening Adventure N5 チラシ" 
             className="w-full h-auto object-contain" 
           />
@@ -132,8 +132,7 @@ const ListeningAdventure = () => {
           </div>
           
           <p className="mt-8 text-slate-500 font-medium">
-            {t.lalp.releaseDate} <br />
-            <span className="text-sm">*Work in progress.</span>
+            {t.lalp.releaseDate}
           </p>
         </div>
       </section>

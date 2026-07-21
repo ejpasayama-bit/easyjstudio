@@ -82,26 +82,27 @@ const dictionaries = {
       send: "Send"
     },
     lalp: {
-      heroTitle: "Empowering learners.\nListening Adventure N5",
-      heroSubtitle: "A 100% listening-focused app.",
+      heroTitle: "Opening the way for learners\nListening Adventure N5",
+      heroSubtitle: "A listening-focused learning app!",
       ctaButton: "Try the Free Demo!",
       introTitle: "Struggling to find time for Japanese study?",
       introText: "Build your N5 listening skills effortlessly in your spare time, all while playing a game.",
       featuresTitle: "Core Features",
-      feature1Title: "100% Listening Focused!",
-      feature1Desc: "Bite-sized, 5-question stages make daily study easy. Perfect for busy workers and students!",
+      feature1Title: "Listening-Focused!",
+      feature1Desc: "Quality listening practice for foreign workers and overseas learners. Compact 5-question stages fit easily into daily spare moments.",
       feature2Title: "Game + Japanese Learning!",
-      feature2Desc: "Learn through an engaging story-driven game. Say goodbye to boring, time-consuming study sessions!",
+      feature2Desc: "Learn through a story-driven game that breaks the wall of 'language learning takes time.'",
       feature3Title: "Supervised by Prof. Isono!",
-      feature3Desc: "Academically supervised for real results. Practical content designed to pass the JLPT, J.TEST, NAT-TEST, JPT, etc!",
+      feature3Desc: "Not just casual gaming — supervised by Prof. Isono, with practical content aimed at passing the JLPT, J.TEST, NAT-TEST, JPT, and more.",
       creditTitle: "Developer & Supervisor",
       devRole: "Japanese Teacher / EdTech Creator",
       devName: "Developer: N. Fukaya",
-      supRole: "Prof. & Dean, Int'l Studies, NUCB\nPh.D. in Japanese Language Education",
-      supName: "Supervisor: Eiji Isono",
+      supRole: "Prof. & Dean, Faculty of International Studies, NUCB\nPh.D. in Japanese Language Education",
+      supName: "Supervisor: Hideharu Isono",
       releaseDate: "Scheduled Release: February 2027",
       bottomCtaTitle: "Ready for your listening adventure?",
-      demo_play:"▼ Scan to Play Demo! ▼"
+      demo_play:"▼ Scan to Play Demo! ▼",
+      flyer_src: "/la_flyer.png",
     }
   },
   jp: {
@@ -206,6 +207,7 @@ const dictionaries = {
       releaseDate: "2027年2月リリース予定",
       bottomCtaTitle: "さあ、リスニングの冒険に出かけよう！",
       demo_play:"▼ スマホで体験版をプレイ！ ▼",
+      flyer_src: "/la_flyer_en.png",
     }
   }
 };

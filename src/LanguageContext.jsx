@@ -82,7 +82,7 @@ const dictionaries = {
       send: "Send"
     },
     lalp: {
-      heroTitle: "Empowering learners.",
+      heroTitle: "Empowering learners.\nListening Adventure N5",
       heroSubtitle: "A 100% listening-focused app.",
       ctaButton: "Try the Free Demo!",
       introTitle: "Struggling to find time for Japanese study while working?",
@@ -185,7 +185,7 @@ const dictionaries = {
       send: "送信する"
     },
     lalp: {
-      heroTitle: "学習者の道をひらく",
+      heroTitle: "学習者の道をひらく\nリスニング アドベンチャー N5",
       heroSubtitle: "リスニング特化型学習アプリ",
       ctaButton: "体験版はコチラ！",
       introTitle: "「働きながらの日本語学習、時間がなくて大変ではありませんか？」",

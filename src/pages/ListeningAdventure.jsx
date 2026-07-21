@@ -16,17 +16,41 @@ const ListeningAdventure = () => {
           {t.lalp.heroSubtitle}
         </p>
         
-        <button className="bg-rose-500 text-white text-xl md:text-2xl font-bold py-5 px-12 rounded-full shadow-lg hover:bg-rose-600 hover:scale-105 transition-all duration-300 ease-out mb-12">
+        {/* === CTAエリア（レスポンシブ切り替え） === */}
+        {/* スマホ用：タップできるボタン（PC・タブレットサイズ以上の md: では非表示） */}
+        <a 
+          href="https://listening-n5-demo.ejp-asayama.workers.dev" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="md:hidden inline-block bg-rose-500 text-white text-xl font-bold py-5 px-12 rounded-full shadow-lg hover:bg-rose-600 transition-all duration-300 mb-12"
+        >
           {t.lalp.ctaButton}
-        </button>
+        </a>
 
-        {/* Hero Image Placeholder */}
-        <div className="w-full aspect-video bg-indigo-100 rounded-3xl border-8 border-white shadow-xl flex flex-col items-center justify-center overflow-hidden relative">
-          <span className="text-indigo-400 font-bold text-xl z-10">[ プレースホルダー ]</span>
-          <span className="text-indigo-400 text-sm mt-2 z-10">ここにゲーム画面とPapapa16さんのキャラクターイラストを配置</span>
-          {/* 実際の画像を配置する際はこちらのimgタグを使用 */}
-          {/* <img src="/hero-image.webp" alt="Listening Adventure N5" className="absolute inset-0 w-full h-full object-cover" /> */}
+        {/* PC用：QRコード表示（スマホサイズでは非表示、md: 以上でフレックス表示） */}
+        <div className="hidden md:flex flex-col items-center mb-12">
+          <span className="text-sm font-bold text-indigo-500 mb-3 tracking-wider">
+            ▼ スマートフォンでスキャンしてプレイ！ ▼
+          </span>
+          <div className="bg-white p-4 rounded-3xl shadow-md border-2 border-indigo-50 hover:scale-105 transition-transform duration-300">
+            <img 
+              src="/trialqr.png" 
+              alt="体験版QRコード" 
+              className="w-40 h-40 object-contain" 
+            />
+          </div>
         </div>
+        {/* ==================================== */}
+
+        {/* チラシ画像エリア（プレースホルダーから置き換え） */}
+        <div className="w-full max-w-3xl mx-auto bg-white rounded-3xl border-8 border-white shadow-xl overflow-hidden mt-8">
+          <img 
+            src="/la_flyer.png" 
+            alt="Listening Adventure N5 チラシ" 
+            className="w-full h-auto object-contain" 
+          />
+        </div>
+
       </section>
 
       {/* 2. Introduction Section */}
@@ -48,27 +72,21 @@ const ListeningAdventure = () => {
           
           {/* Feature 1 */}
           <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 flex flex-col items-center text-center">
-            <div className="w-24 h-24 bg-orange-100 rounded-full mb-6 flex items-center justify-center text-orange-500 font-bold text-sm">
-              [Icon/Img]
-            </div>
+            <div className="w-24 h-24 bg-orange-100 rounded-full mb-6 flex items-center justify-center text-orange-500 font-bold text-sm"></div>
             <h3 className="text-xl font-bold text-slate-800 mb-4">{t.lalp.feature1Title}</h3>
             <p className="text-slate-600 leading-relaxed">{t.lalp.feature1Desc}</p>
           </div>
 
           {/* Feature 2 */}
           <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 flex flex-col items-center text-center">
-            <div className="w-24 h-24 bg-emerald-100 rounded-full mb-6 flex items-center justify-center text-emerald-500 font-bold text-sm">
-              [Icon/Img]
-            </div>
+            <div className="w-24 h-24 bg-emerald-100 rounded-full mb-6 flex items-center justify-center text-emerald-500 font-bold text-sm"></div>
             <h3 className="text-xl font-bold text-slate-800 mb-4">{t.lalp.feature2Title}</h3>
             <p className="text-slate-600 leading-relaxed">{t.lalp.feature2Desc}</p>
           </div>
 
           {/* Feature 3 */}
           <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 flex flex-col items-center text-center">
-            <div className="w-24 h-24 bg-sky-100 rounded-full mb-6 flex items-center justify-center text-sky-500 font-bold text-sm">
-              [Icon/Img]
-            </div>
+            <div className="w-24 h-24 bg-sky-100 rounded-full mb-6 flex items-center justify-center text-sky-500 font-bold text-sm"></div>
             <h3 className="text-xl font-bold text-slate-800 mb-4">{t.lalp.feature3Title}</h3>
             <p className="text-slate-600 leading-relaxed">{t.lalp.feature3Desc}</p>
           </div>
@@ -83,15 +101,24 @@ const ListeningAdventure = () => {
           
           <div className="flex flex-col md:flex-row gap-8 justify-center items-stretch">
             {/* Developer */}
-            <div className="bg-white p-8 rounded-2xl shadow-sm flex-1 flex flex-col items-center">
+            <div className="bg-white p-8 rounded-2xl shadow-sm flex-1 flex flex-col items-center justify-center">
               <p className="text-sm font-bold text-indigo-500 mb-2">{t.lalp.devRole}</p>
               <h3 className="text-xl font-bold text-slate-800">{t.lalp.devName}</h3>
             </div>
             
             {/* Supervisor */}
-            <div className="bg-white p-8 rounded-2xl shadow-sm flex-1 flex flex-col items-center">
+            <div className="bg-white p-8 rounded-2xl shadow-sm flex-1 flex flex-col items-center justify-center">
               <p className="text-sm font-bold text-indigo-500 mb-2 whitespace-pre-wrap">{t.lalp.supRole}</p>
-              <h3 className="text-xl font-bold text-slate-800">{t.lalp.supName}</h3>
+              <h3 className="text-xl font-bold">
+                <a 
+                  href="https://opinion.nucba.ac.jp/~isono/index.html" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+                >
+                  {t.lalp.supName}
+                </a>
+              </h3>
             </div>
           </div>
           
@@ -105,9 +132,31 @@ const ListeningAdventure = () => {
       {/* 5. Bottom CTA Section */}
       <section className="py-24 px-8 max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-slate-800 mb-10">{t.lalp.bottomCtaTitle}</h2>
-        <button className="bg-rose-500 text-white text-xl md:text-2xl font-bold py-5 px-12 rounded-full shadow-lg hover:bg-rose-600 hover:scale-105 transition-all duration-300 ease-out">
+        
+        {/* === ボトムCTAエリア（ここも同じくレスポンシブ切り替え） === */}
+        <a 
+          href="https://listening-n5-demo.ejp-asayama.workers.dev" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="md:hidden inline-block bg-rose-500 text-white text-xl font-bold py-5 px-12 rounded-full shadow-lg hover:bg-rose-600 transition-all duration-300"
+        >
           {t.lalp.ctaButton}
-        </button>
+        </a>
+
+        <div className="hidden md:flex flex-col items-center">
+          <span className="text-sm font-bold text-slate-500 mb-3 tracking-wider">
+            ▼ スマートフォンでスキャンしてプレイ！ ▼
+          </span>
+          <div className="bg-white p-4 rounded-3xl shadow-md border-2 border-slate-100 hover:scale-105 transition-transform duration-300">
+            <img 
+              src="/trialqr.png" 
+              alt="体験版QRコード" 
+              className="w-40 h-40 object-contain" 
+            />
+          </div>
+        </div>
+        {/* ==================================================== */}
+        
       </section>
 
     </div>

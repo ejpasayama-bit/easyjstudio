@@ -108,7 +108,16 @@ const ListeningAdventure = () => {
             
             {/* Supervisor */}
             <div className="bg-white p-8 rounded-2xl shadow-sm flex-1 flex flex-col items-center justify-center">
-              <p className="text-sm font-bold text-indigo-500 mb-2 whitespace-pre-wrap">{t.lalp.supRole}</p>
+              <p className="text-sm font-bold text-indigo-500 mb-2 whitespace-pre-wrap">
+                <a 
+                  href="https://opinion.nucba.ac.jp/~isono/index.html" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800 hover:underline transition-colors duration-200"
+                >
+                  {t.lalp.supRole}
+                </a>
+              </p>
               <h3 className="text-xl font-bold">
                 <a 
                   href="https://opinion.nucba.ac.jp/~isono/index.html" 

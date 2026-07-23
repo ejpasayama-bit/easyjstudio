@@ -37,7 +37,6 @@ const Guidelines = () => {
             <li>{t.guidelines.prohibitLi1}</li>
             <li>{t.guidelines.prohibitLi2}</li>
             <li>{t.guidelines.prohibitLi3}</li>
-            <li>{t.guidelines.prohibitLi4}</li>
           </ul>
           <div className="mt-6 p-4 bg-slate-50 border-l-4 border-slate-400 text-sm">
             <strong>{t.guidelines.rightsTitle}</strong><br />

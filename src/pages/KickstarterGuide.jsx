@@ -1,0 +1,169 @@
+import React from 'react';
+
+const KickstarterGuide = () => {
+  return (
+    <div className="w-full bg-slate-50 min-h-screen text-slate-800 pb-24">
+      
+      {/* ページヘッダー */}
+      <section className="bg-indigo-600 text-white pt-24 pb-16 px-8 text-center">
+        <h1 className="text-3xl md:text-5xl font-extrabold mb-4 tracking-tight">
+          日本の方へ
+        </h1>
+        <p className="text-lg md:text-2xl font-medium opacity-90">
+          Kickstarterが初めての方はこちら
+        </p>
+      </section>
+
+      <div className="max-w-4xl mx-auto px-6 md:px-8 mt-12 space-y-16">
+        
+        {/* 目次 */}
+        <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100">
+          <h2 className="text-xl font-bold text-slate-800 mb-6 border-b-2 border-indigo-100 pb-2">目次</h2>
+          <ul className="space-y-4 text-indigo-600 font-medium text-lg">
+            <li><a href="#about" className="hover:underline">１：Kickstarter（キックスターター）とは？</a></li>
+            <li><a href="#products" className="hover:underline">２：商品の紹介 / クリエイターコメント</a></li>
+            <li><a href="#support" className="hover:underline">３：支援について</a></li>
+          </ul>
+        </div>
+
+        {/* よりねちゃんからのメッセージ */}
+        <div className="flex items-start gap-4 md:gap-6 bg-indigo-50 p-6 md:p-8 rounded-3xl">
+          <div className="w-20 h-20 md:w-24 md:h-24 flex-shrink-0 bg-white rounded-full border-4 border-indigo-200 overflow-hidden shadow-sm flex items-center justify-center">
+            <span className="text-indigo-300 text-xs text-center font-bold">よりね<br/>画像</span>
+            {/* <img src="/yorine_icon.png" alt="よりね" className="w-full h-full object-cover" /> */}
+          </div>
+          <div className="flex-1 bg-white p-6 rounded-2xl rounded-tl-none shadow-sm relative">
+            {/* 吹き出しのしっぽ */}
+            <div className="absolute top-0 -left-3 w-0 h-0 border-t-[16px] border-t-white border-l-[16px] border-l-transparent"></div>
+            <p className="text-lg md:text-xl font-bold text-slate-700 leading-relaxed">
+              「やっほー、来てくれてありがとう！<br className="hidden md:block"/>
+              Kickstarterの説明と、簡単なリワード（リターン・返礼品）を紹介するね！」
+            </p>
+          </div>
+        </div>
+
+        {/* １：Kickstarterとは？ */}
+        <section id="about" className="scroll-mt-24">
+          <h2 className="text-3xl font-bold text-slate-800 mb-8 border-l-8 border-indigo-500 pl-4">
+            １：Kickstarter（キックスターター）とは？
+          </h2>
+          <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 space-y-8 text-lg leading-relaxed text-slate-600">
+            <p>
+              海外発の世界最大の「応援購入（クラウドファンディング）」サービスです。開発資金を募り、集まった支援でゲームを完成させます。支援すると、金額に応じたお礼（＝リワード。本作なら本体や特典）を受け取れます。<strong className="text-rose-500">「支援する」＝「そのプランを予約購入する」</strong>とお考えください。
+            </p>
+
+            <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+              <h3 className="text-xl font-bold text-slate-800 mb-2">目標に届かなかった場合、料金は一切かかりません</h3>
+              <p>
+                本プロジェクトは「All or Nothing（オール・オア・ナッシング）」方式です。募集期間内に目標金額へ届かなかった場合、あなたへの請求は発生しません。目標を達成したときのみ、支援が成立します。
+              </p>
+            </div>
+
+            <div className="bg-slate-50 p-6 rounded-2xl border border-slate-200">
+              <h3 className="text-xl font-bold text-slate-800 mb-2">料金が引き落とされるタイミング</h3>
+              <p>
+                支援した時点ではなく、<strong className="text-slate-800">募集期間の終了した日</strong>にまとめて決済されます。募集中は「予約している」状態です。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* ２：商品の紹介 */}
+        <section id="products" className="scroll-mt-24">
+          <h2 className="text-3xl font-bold text-slate-800 mb-8 border-l-8 border-rose-500 pl-4">
+            ２：商品の紹介
+          </h2>
+          <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 space-y-8">
+            <p className="text-lg text-slate-600">
+              ここに商品の概要や、魅力的なリワードについての簡単な説明を記載します。
+            </p>
+            
+            {/* クリエイターコメント枠 */}
+            <div className="space-y-6">
+              <h3 className="text-xl font-bold text-slate-800 border-b pb-2">クリエイターコメント</h3>
+              
+              <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p className="font-bold text-indigo-600 mb-2">🎨 イラストレーター：〇〇様</p>
+                <p className="text-slate-600">「ここにイラストレーターの方の日本語コメントを記載します。」</p>
+              </div>
+
+              <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <p className="font-bold text-indigo-600 mb-2">🎵 作曲家：〇〇様</p>
+                <p className="text-slate-600">「ここに作曲家の方の日本語コメントを記載します。」</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ３：支援について */}
+        <section id="support" className="scroll-mt-24">
+          <h2 className="text-3xl font-bold text-slate-800 mb-8 border-l-8 border-emerald-500 pl-4">
+            ３：支援について
+          </h2>
+          <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 space-y-10 text-lg text-slate-600">
+            
+            <div>
+              <h3 className="text-xl font-bold text-slate-800 mb-3">支援に必要なもの</h3>
+              <p className="leading-relaxed">
+                Kickstarterのアカウント（無料・メールアドレスで作成）と、クレジットカード。アカウントは支援手続きの途中でも作成できます。日本のクレジットカード（VISA、Mastercard、JCBなど）がそのままご利用いただけます。
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">手順</h3>
+              <ol className="space-y-4 list-decimal list-inside marker:font-bold marker:text-emerald-500">
+                <li className="pl-2">希望するプラン（リワード）を選び、緑色のボタン<strong className="text-slate-800">「Back this project／このプロジェクトをバックする」</strong>を押す</li>
+                <li className="pl-2">Kickstarterにログイン（初めての方はアカウント作成）</li>
+                <li className="pl-2">支援金額とプランを確認し、クレジットカード情報を入力</li>
+                <li className="pl-2">完了！ あとは募集終了をお待ちください（拡散もしていただけるとありがたいです！）</li>
+              </ol>
+            </div>
+
+            <div className="bg-amber-50 p-6 rounded-2xl border border-amber-100">
+              <h3 className="text-xl font-bold text-slate-800 mb-2">リワード（リターン・返礼品）のお届け時期</h3>
+              <p className="font-bold text-amber-700 mb-4">2027年8月を予定しています。</p>
+              <p className="text-sm text-amber-800 leading-relaxed">
+                ※お届け時期に関する注意<br/>
+                本作は個人開発です。声の収録スケジュールなどに遅れが生じた場合、それに伴いお届け時期が前後する可能性があります。進捗はアップデートで随時ご報告します。あらかじめご了承ください。
+              </p>
+            </div>
+
+            <div className="bg-blue-50 p-6 rounded-2xl border border-blue-100">
+              <h3 className="text-xl font-bold text-slate-800 mb-2">金額の表示について</h3>
+              <p className="text-blue-900 leading-relaxed">
+                本プロジェクトは日本円で設定されています。<strong className="bg-blue-200 px-1 rounded">画面に表示されている金額（¥〇〇）がそのまま引き落とされます。</strong>海外サイトにありがちな「為替レートの変動による追加請求」などは一切かかりませんので、安心してご支援ください。
+              </p>
+            </div>
+
+          </div>
+        </section>
+
+        {/* フッター・お問い合わせ */}
+        <section className="text-center pt-8">
+          <p className="text-xl font-bold text-slate-800 mb-8">
+            ご不明な点は［問い合わせ先］までお気軽にどうぞ。<br/>
+            あなたの応援を、よりねと一緒にお待ちしています！
+          </p>
+          
+          <div className="flex flex-wrap justify-center gap-4">
+            <a href="[URL]" target="_blank" rel="noopener noreferrer" className="bg-slate-800 text-white px-6 py-3 rounded-full font-bold hover:bg-slate-700 transition-colors">
+              Steam Wishlist
+            </a>
+            <a href="https://x.com/EasyJ_Studio" target="_blank" rel="noopener noreferrer" className="bg-black text-white px-6 py-3 rounded-full font-bold hover:bg-slate-800 transition-colors">
+              X (Twitter)
+            </a>
+            <a href="https://easyjstudio.com/" className="bg-indigo-600 text-white px-6 py-3 rounded-full font-bold hover:bg-indigo-700 transition-colors">
+              Website
+            </a>
+            <a href="https://discord.gg/NK3XXYcYqN" target="_blank" rel="noopener noreferrer" className="bg-[#5865F2] text-white px-6 py-3 rounded-full font-bold hover:bg-[#4752C4] transition-colors">
+              Discord
+            </a>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  );
+};
+
+export default KickstarterGuide;

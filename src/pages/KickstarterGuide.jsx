@@ -10,7 +10,7 @@ const KickstarterGuide = () => {
           日本の方へ
         </h1>
         <p className="text-lg md:text-2xl font-medium opacity-90">
-          Kickstarterが初めての方はこちら
+          Kickstarterが初めての方向けページ
         </p>
       </section>
 
@@ -82,38 +82,55 @@ const KickstarterGuide = () => {
             {/* クリエイターコメント枠 */}
             <div className="space-y-6">
               <h3 className="text-xl font-bold text-slate-800 border-b pb-2">クリエイターコメント（敬称略）</h3>
-              
-              
-              <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-                <img src="/ks-guide/aizawa.PNG" alt="愛沢日南さんコメント" className="w-full h-full object-cover" />
-                <img src="/ks-guide/mogu.PNG" alt="もぐざえもんさんコメント" className="w-full h-full object-cover" />
+
+              <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <img src="/ks-guide/aizawa.PNG" alt="愛沢日南さんコメント" className="w-full h-auto rounded-xl shadow-sm border border-slate-200" />
+                <img src="/ks-guide/mogu.PNG" alt="もぐざえもんさんコメント" className="w-full h-auto rounded-xl shadow-sm border border-slate-200" />
               </div>
-              <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-                <img src="/ks-guide/nagai.PNG" alt="永井さんコメント" className="w-full h-full object-cover" />
-                <img src="/ks-guide/seiichi.PNG" alt="セーイチさんコメント" className="w-full h-full object-cover" />
+
+              <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                <img src="/ks-guide/nagai.PNG" alt="永井さんコメント" className="w-full h-auto rounded-xl shadow-sm border border-slate-200" />
+                <img src="/ks-guide/seiichi.PNG" alt="セーイチさんコメント" className="w-full h-auto rounded-xl shadow-sm border border-slate-200" />
               </div>
-              <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-                <img src="/ks-guide/sasuke.PNG" alt="Sasuke Designさんコメント" className="w-full h-full object-cover" />
+
+              <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100 flex justify-center">
+                <img src="/ks-guide/sasuke.PNG" alt="Sasuke Designさんコメント" className="w-full md:w-1/2 h-auto rounded-xl shadow-sm border border-slate-200" />
               </div>
             </div>
-            <div className="space-y-6">
-              <h3 className="text-xl font-bold text-slate-800 border-b pb-2">リワード（特典）</h3>
-              <img src="/ks-guide/credit.PNG" alt="上位リワード1" className="w-full h-full object-cover" />
-              <img src="/ks-guide/namecallvoice.PNG" alt="上位リワード2" className="w-full h-full object-cover" />
-              <img src="/ks-guide/spacha.PNG" alt="上位リワード3" className="w-full h-full object-cover" />
-              <img src="/ks-guide/namecallasmr.PNG" alt="上位リワード4" className="w-full h-full object-cover" />
-              <img src="/ks-guide/off-sp.PNG" alt="上位リワード5" className="w-full h-full object-cover" />
-              <img src="/ks-guide/reward_list_jp.png" alt="リワード一覧" className="w-full h-full object-cover" />
+
+            {/* リワード（特典）枠 */}
+            <div className="space-y-6 mt-12">
+              <h3 className="text-xl font-bold text-slate-800 border-b pb-2">リワード（特典）について</h3>
+              <ul className="space-y-4 list-decimal list-inside marker:font-bold marker:text-emerald-500">
+                <li className="pl-2">ゲーム本体</li>
+                <li className="pl-2">限定壁紙</li>
+                <li className="pl-2">撮り下ろしボイス（１～２分）</li>
+                <li className="pl-2">撮り下ろしASMR（15～20分）</li>
+                <li className="pl-2">キャラクター三面図</li>
+                <li className="pl-2">タイトル曲の楽譜</li>
+              </ul>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <img src="/ks-guide/credit.PNG" alt="上位リワード1" className="w-full h-auto rounded-xl shadow-sm border border-slate-200" />
+                <img src="/ks-guide/namecallvoice.PNG" alt="上位リワード2" className="w-full h-auto rounded-xl shadow-sm border border-slate-200" />
+                <img src="/ks-guide/spacha.PNG" alt="上位リワード3" className="w-full h-auto rounded-xl shadow-sm border border-slate-200" />
+                <img src="/ks-guide/namecallasmr.PNG" alt="上位リワード4" className="w-full h-auto rounded-xl shadow-sm border border-slate-200" />
+                <img src="/ks-guide/off-sp.PNG" alt="上位リワード5" className="w-full h-auto rounded-xl shadow-sm border border-slate-200" />
+              </div>
+
+              <img src="/ks-guide/reward_list_jp.png" alt="リワード一覧" className="w-full h-auto rounded-xl shadow-sm border border-slate-200 mt-6" />
             </div>
-            <div className="space-y-6">
+
+            {/* ストレッチゴール枠 */}
+            <div className="space-y-6 mt-12">
               <h3 className="text-xl font-bold text-slate-800 border-b pb-2">ストレッチゴール</h3>
-              <img src="/ks-guide/stretch_goal_jp1.PNG" alt="ストレッチゴール" className="w-full h-full object-cover" />
-              <p className="text-lg text-slate-600">
-                ※ストレッチゴールとは？<br />
+              <img src="/ks-guide/stretch_goal_jp1.PNG" alt="ストレッチゴール" className="w-full h-auto rounded-xl shadow-sm border border-slate-200" />
+              <p className="text-lg text-slate-600 bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <strong className="text-indigo-600 block mb-2">※ストレッチゴールとは？</strong>
                 目標金額を達成した後に用意されている「追加のミッション」です！<br />
                 さらに支援の輪が広がって次の目標金額に届くたびに、新しい衣装が追加されたり、完全フルボイス化されたりと、ゲームがどんどん豪華に進化していきます！
               </p>
             </div>
+
           </div>
         </section>
 
@@ -134,9 +151,16 @@ const KickstarterGuide = () => {
             <div>
               <h3 className="text-xl font-bold text-slate-800 mb-4">手順</h3>
               <ol className="space-y-4 list-decimal list-inside marker:font-bold marker:text-emerald-500">
-                <li className="pl-2">希望するプラン（リワード）を選び、緑色のボタン<strong className="text-slate-800">「Back this project／このプロジェクトをバックする」</strong>を押す</li>
-                <li className="pl-2">Kickstarterにログイン（初めての方はアカウント作成）</li>
+                <li className="pl-2">希望するプラン（リワード）を選び、緑色のボタン<strong className="text-slate-800">「Back this project／このプロジェクトをバックする」</strong>を押す
+                  <img src="/ks-guide/sc1.png" alt="説明画像１" className="w-full h-auto rounded-xl shadow-sm border border-slate-200" />
+                </li>
+                <li className="pl-2"><strong className="text-slate-800">「利用可能なリワード」</strong>からプランを選択（「◯◯のプレッジ」を押す）</li>
+                <li className="pl-2">オプションを選択（任意）して、金額を確認して「次へ」を押す</li>
+                <li className="pl-2">Kickstarterにログイン（初めての方は名前・Eメール・パスワードを入力してアカウント作成）</li>
                 <li className="pl-2">支援金額とプランを確認し、クレジットカード情報を入力</li>
+                <li className="pl-2">チェックボタンを押して、「プレッジする」を押す
+                  <img src="/ks-guide/sc2.png" alt="説明画像２" className="w-full h-auto rounded-xl shadow-sm border border-slate-200" />
+                </li>
                 <li className="pl-2">完了！ あとは募集終了をお待ちください（拡散もしていただけるとありがたいです！）</li>
               </ol>
             </div>

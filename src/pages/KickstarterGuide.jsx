@@ -75,27 +75,37 @@ const KickstarterGuide = () => {
             ２：商品の紹介
           </h2>
           <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 space-y-8">
-            <p className="text-lg text-slate-600">
+            {/* ゲームの魅力・キャッチコピー枠 */}
+            <div className="space-y-8 text-lg text-slate-600 bg-slate-50 p-6 md:p-8 rounded-2xl border border-slate-100">
               <p>
-              <strong className="text-indigo-600 block mb-2">そのコメント、推しに"拾われる"か？</strong>
-              "清楚"を名乗るわりに、感情がダダ漏れ。全力で、まっすぐで、ちょっとポンコツな新人VTuberの配信に、リスナーとして飛び込め！
-              流れるチャットから4つのスラングを選び、的確なコメントを投げ込む——新感覚チャットADV。</p>
+                <strong className="text-indigo-600 block mb-2 text-xl">そのコメント、推しに"拾われる"か？</strong>
+                "清楚"を名乗るわりに、感情がダダ漏れ。全力で、まっすぐで、ちょっとポンコツな新人VTuberの配信に、リスナーとして飛び込め！<br />
+                流れるチャットから4つのスラングを選び、的確なコメントを投げ込む——新感覚チャットADV。
+              </p>
 
-              <strong className="text-indigo-600 block mb-2">■ コメントを"拾わせろ"</strong>
-              空気を読んだスラングが刺されば、彼女はあなたの名前を呼んで話を広げる。外せば、コメントは何事もなく流れていく。あなたの一言が、配信を動かす。
+              <p>
+                <strong className="text-indigo-600 block mb-2 text-xl">■ コメントを"拾わせろ"</strong>
+                空気を読んだスラングが刺されば、彼女はあなたの名前を呼んで話を広げる。外せば、コメントは何事もなく流れていく。あなたの一言が、配信を動かす。
+              </p>
 
-              <strong className="text-indigo-600 block mb-2">■ "清楚"のはずが、隠しきれない</strong>
-              アイドル界の清流を名乗る彼女。でも理不尽な苦行ゲームを前にすると、つい舌打ち、つい台パン、つい素の一面が……。
-              取り繕っては失敗し、リスナーに突っ込まれ、また取り繕う。その繰り返しが、このゲームのいちばんの見どころ。<br /><br />
+              <p>
+                <strong className="text-indigo-600 block mb-2 text-xl">■ "清楚"のはずが、隠しきれない</strong>
+                アイドル界の清流を名乗る彼女。でも理不尽な苦行ゲームを前にすると、つい舌打ち、つい台パン、つい素の一面が……。<br />
+                取り繕っては失敗し、リスナーに突っ込まれ、また取り繕う。その繰り返しが、このゲームのいちばんの見どころ。
+              </p>
 
-              <strong className="text-indigo-600 block mb-2">■ そのコメントが、推しの運命を変える</strong>
-              やがて彼女は、ある"事件"で大きな試練に直面する。彼女がどんな結末を迎えるかは、あなたが投げ続けたコメント次第。
-              登録者100万人の「トゥルーエンド」か、"らしさ"を封じた「ノーマルエンド」か、それとも「病み引退」か——。ただし道中で地雷を踏めば、そこで即BANエンド。<br /><br />
+              <p>
+                <strong className="text-indigo-600 block mb-2 text-xl">■ そのコメントが、推しの運命を変える</strong>
+                やがて彼女は、ある"事件"で大きな試練に直面する。彼女がどんな結末を迎えるかは、あなたが投げ続けたコメント次第。<br />
+                登録者100万人の「トゥルーエンド」か、"らしさ"を封じた「ノーマルエンド」か、それとも「病み引退」か——。ただし道中で地雷を踏めば、そこで即BANエンド。
+              </p>
 
-              <strong className="text-indigo-600 block mb-2">■ ガチで学べる日本語スラング辞典</strong>
-              現役日本語教師監修の「SlangPool」搭載。体験版だけでも41語を収録し、意味だけでなく"どのような場面で使えるのか"まで解説。
-              日/英/簡体字/繁体字の4言語に対応し、全用例に音声付き。
-            </p>
+              <p>
+                <strong className="text-indigo-600 block mb-2 text-xl">■ ガチで学べる日本語スラング辞典</strong>
+                現役日本語教師監修の「SlangPool」搭載。体験版だけでも41語を収録し、意味だけでなく"どのような場面で使えるのか"まで解説。<br />
+                日/英/簡体字/繁体字の4言語に対応し、全用例に音声付き。
+              </p>
+            </div>
             
             {/* クリエイターコメント枠 */}
             <div className="space-y-6">

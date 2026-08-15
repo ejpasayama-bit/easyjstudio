@@ -85,24 +85,24 @@ const KickstarterGuide = () => {
               
               
               <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-                <img src="/ks-guide/aizawa.png" alt="愛沢日南さんコメント" className="w-full h-full object-cover" />
-                <img src="/ks-guide/mogu.png" alt="もぐざえもんさんコメント" className="w-full h-full object-cover" />
+                <img src="/ks-guide/aizawa.PNG" alt="愛沢日南さんコメント" className="w-full h-full object-cover" />
+                <img src="/ks-guide/mogu.PNG" alt="もぐざえもんさんコメント" className="w-full h-full object-cover" />
               </div>
               <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-                <img src="/ks-guide/nagai.png" alt="永井さんコメント" className="w-full h-full object-cover" />
-                <img src="/ks-guide/seiichi.png" alt="セーイチさんコメント" className="w-full h-full object-cover" />
+                <img src="/ks-guide/nagai.PNG" alt="永井さんコメント" className="w-full h-full object-cover" />
+                <img src="/ks-guide/seiichi.PNG" alt="セーイチさんコメント" className="w-full h-full object-cover" />
               </div>
               <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-                <img src="/ks-guide/sasuke.png" alt="Sasuke Designさんコメント" className="w-full h-full object-cover" />
+                <img src="/ks-guide/sasuke.PNG" alt="Sasuke Designさんコメント" className="w-full h-full object-cover" />
               </div>
             </div>
             <div className="space-y-6">
               <h3 className="text-xl font-bold text-slate-800 border-b pb-2">リワード（特典）</h3>
-              <img src="/ks-guide/credit.png" alt="上位リワード1" className="w-full h-full object-cover" />
-              <img src="/ks-guide/namecallvoice.png" alt="上位リワード2" className="w-full h-full object-cover" />
-              <img src="/ks-guide/spacha.png" alt="上位リワード3" className="w-full h-full object-cover" />
-              <img src="/ks-guide/namecallasmr.png" alt="上位リワード4" className="w-full h-full object-cover" />
-              <img src="/ks-guide/off-sp.png" alt="上位リワード5" className="w-full h-full object-cover" />
+              <img src="/ks-guide/credit.PNG" alt="上位リワード1" className="w-full h-full object-cover" />
+              <img src="/ks-guide/namecallvoice.PNG" alt="上位リワード2" className="w-full h-full object-cover" />
+              <img src="/ks-guide/spacha.PNG" alt="上位リワード3" className="w-full h-full object-cover" />
+              <img src="/ks-guide/namecallasmr.PNG" alt="上位リワード4" className="w-full h-full object-cover" />
+              <img src="/ks-guide/off-sp.PNG" alt="上位リワード5" className="w-full h-full object-cover" />
               <img src="/ks-guide/reward_list_jp.png" alt="リワード一覧" className="w-full h-full object-cover" />
             </div>
             <div className="space-y-6">

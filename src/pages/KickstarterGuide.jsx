@@ -29,8 +29,9 @@ const KickstarterGuide = () => {
         {/* よりねちゃんからのメッセージ */}
         <div className="flex items-start gap-4 md:gap-6 bg-indigo-50 p-6 md:p-8 rounded-3xl">
           <div className="w-20 h-20 md:w-24 md:h-24 flex-shrink-0 bg-white rounded-full border-4 border-indigo-200 overflow-hidden shadow-sm flex items-center justify-center">
-            <span className="text-indigo-300 text-xs text-center font-bold">よりね<br/>画像</span>
-            {/* <img src="/yorine_icon.png" alt="よりね" className="w-full h-full object-cover" /> */}
+            <span className="text-indigo-300 text-xs text-center font-bold">
+                <img src="/ks-guide/yorine_icon.png" alt="よりね" className="w-full h-full object-cover" />
+            </span>
           </div>
           <div className="flex-1 bg-white p-6 rounded-2xl rounded-tl-none shadow-sm relative">
             {/* 吹き出しのしっぽ */}
@@ -80,17 +81,38 @@ const KickstarterGuide = () => {
             
             {/* クリエイターコメント枠 */}
             <div className="space-y-6">
-              <h3 className="text-xl font-bold text-slate-800 border-b pb-2">クリエイターコメント</h3>
+              <h3 className="text-xl font-bold text-slate-800 border-b pb-2">クリエイターコメント（敬称略）</h3>
+              
               
               <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-                <p className="font-bold text-indigo-600 mb-2">🎨 イラストレーター：〇〇様</p>
-                <p className="text-slate-600">「ここにイラストレーターの方の日本語コメントを記載します。」</p>
+                <img src="/ks-guide/aizawa.png" alt="愛沢日南さんコメント" className="w-full h-full object-cover" />
+                <img src="/ks-guide/mogu.png" alt="もぐざえもんさんコメント" className="w-full h-full object-cover" />
               </div>
-
               <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
-                <p className="font-bold text-indigo-600 mb-2">🎵 作曲家：〇〇様</p>
-                <p className="text-slate-600">「ここに作曲家の方の日本語コメントを記載します。」</p>
+                <img src="/ks-guide/nagai.png" alt="永井さんコメント" className="w-full h-full object-cover" />
+                <img src="/ks-guide/seiichi.png" alt="セーイチさんコメント" className="w-full h-full object-cover" />
               </div>
+              <div className="bg-slate-50 p-6 rounded-2xl border border-slate-100">
+                <img src="/ks-guide/sasuke.png" alt="Sasuke Designさんコメント" className="w-full h-full object-cover" />
+              </div>
+            </div>
+            <div className="space-y-6">
+              <h3 className="text-xl font-bold text-slate-800 border-b pb-2">リワード（特典）</h3>
+              <img src="/ks-guide/credit.png" alt="上位リワード1" className="w-full h-full object-cover" />
+              <img src="/ks-guide/namecallvoice.png" alt="上位リワード2" className="w-full h-full object-cover" />
+              <img src="/ks-guide/spacha.png" alt="上位リワード3" className="w-full h-full object-cover" />
+              <img src="/ks-guide/namecallasmr.png" alt="上位リワード4" className="w-full h-full object-cover" />
+              <img src="/ks-guide/off-sp.png" alt="上位リワード5" className="w-full h-full object-cover" />
+              <img src="/ks-guide/reward_list_jp.png" alt="リワード一覧" className="w-full h-full object-cover" />
+            </div>
+            <div className="space-y-6">
+              <h3 className="text-xl font-bold text-slate-800 border-b pb-2">ストレッチゴール</h3>
+              <img src="/ks-guide/stretch_goal_jp1.png" alt="ストレッチゴール" className="w-full h-full object-cover" />
+              <p className="text-lg text-slate-600">
+                ※ストレッチゴールとは？<br />
+                目標金額を達成した後に用意されている「追加のミッション」です！<br />
+                さらに支援の輪が広がって次の目標金額に届くたびに、新しい衣装が追加されたり、完全フルボイス化されたりと、ゲームがどんどん豪華に進化していきます！
+              </p>
             </div>
           </div>
         </section>

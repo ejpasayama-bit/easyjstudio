@@ -123,14 +123,15 @@ const KickstarterGuide = () => {
             {/* ストレッチゴール枠 */}
             <div className="space-y-6 mt-12">
               <h3 className="text-xl font-bold text-slate-800 border-b pb-2">ストレッチゴール</h3>
-              <img src="/ks-guide/stretch_goal_jp1.PNG" alt="ストレッチゴール" className="w-full h-auto rounded-xl shadow-sm border border-slate-200" />
+              <div className="flex justify-center">
+                <img src="/ks-guide/stretch_goal_jp1.PNG" alt="ストレッチゴール" className="w-full md:w-1/2 h-auto rounded-xl shadow-sm border border-slate-200" />
+              </div>
               <p className="text-lg text-slate-600 bg-slate-50 p-6 rounded-2xl border border-slate-100">
                 <strong className="text-indigo-600 block mb-2">※ストレッチゴールとは？</strong>
                 目標金額を達成した後に用意されている「追加のミッション」です！<br />
                 さらに支援の輪が広がって次の目標金額に届くたびに、新しい衣装が追加されたり、完全フルボイス化されたりと、ゲームがどんどん豪華に進化していきます！
               </p>
             </div>
-
           </div>
         </section>
 
@@ -140,26 +141,26 @@ const KickstarterGuide = () => {
             ３：支援について
           </h2>
           <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 space-y-10 text-lg text-slate-600">
-            
             <div>
               <h3 className="text-xl font-bold text-slate-800 mb-3">支援に必要なもの</h3>
               <p className="leading-relaxed">
                 Kickstarterのアカウント（無料・メールアドレスで作成）と、クレジットカード。アカウントは支援手続きの途中でも作成できます。日本のクレジットカード（VISA、Mastercard、JCBなど）がそのままご利用いただけます。
               </p>
             </div>
-
             <div>
               <h3 className="text-xl font-bold text-slate-800 mb-4">手順</h3>
               <ol className="space-y-4 list-decimal list-inside marker:font-bold marker:text-emerald-500">
                 <li className="pl-2">希望するプラン（リワード）を選び、緑色のボタン<strong className="text-slate-800">「Back this project／このプロジェクトをバックする」</strong>を押す
-                  <img src="/ks-guide/sc1.png" alt="説明画像１" className="w-full h-auto rounded-xl shadow-sm border border-slate-200" />
+                  {/* block mt-4 mb-2 で上下に余白を取り、md:w-1/2 で半分のサイズに */}
+                  <img src="/ks-guide/sc1.png" alt="説明画像１" className="block w-full md:w-1/2 h-auto mt-4 mb-2 rounded-xl shadow-sm border border-slate-200" />
                 </li>
                 <li className="pl-2"><strong className="text-slate-800">「利用可能なリワード」</strong>からプランを選択（「◯◯のプレッジ」を押す）</li>
                 <li className="pl-2">オプションを選択（任意）して、金額を確認して「次へ」を押す</li>
                 <li className="pl-2">Kickstarterにログイン（初めての方は名前・Eメール・パスワードを入力してアカウント作成）</li>
                 <li className="pl-2">支援金額とプランを確認し、クレジットカード情報を入力</li>
                 <li className="pl-2">チェックボタンを押して、「プレッジする」を押す
-                  <img src="/ks-guide/sc2.png" alt="説明画像２" className="w-full h-auto rounded-xl shadow-sm border border-slate-200" />
+                  {/* こちらも同様にサイズダウンと余白を追加 */}
+                  <img src="/ks-guide/sc2.png" alt="説明画像２" className="block w-full md:w-1/2 h-auto mt-4 mb-2 rounded-xl shadow-sm border border-slate-200" />
                 </li>
                 <li className="pl-2">完了！ あとは募集終了をお待ちください（拡散もしていただけるとありがたいです！）</li>
               </ol>

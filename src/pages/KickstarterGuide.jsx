@@ -37,8 +37,8 @@ const KickstarterGuide = () => {
             {/* 吹き出しのしっぽ */}
             <div className="absolute top-0 -left-3 w-0 h-0 border-t-[16px] border-t-white border-l-[16px] border-l-transparent"></div>
             <p className="text-lg md:text-xl font-bold text-slate-700 leading-relaxed">
-              「やっほー、来てくれてありがとう！<br className="hidden md:block"/>
-              Kickstarterの説明と、簡単なリワード（リターン・返礼品）を紹介するね！」
+              やっほー、来てくれてありがとう！<br className="hidden md:block"/>
+              Kickstarterの説明と、簡単なリワード（リターン・返礼品）<br className="hidden md:block"/>を紹介するね！
             </p>
           </div>
         </div>

@@ -101,7 +101,7 @@ const KickstarterGuide = () => {
             {/* リワード（特典）枠 */}
             <div className="space-y-6 mt-12">
               <h3 className="text-xl font-bold text-slate-800 border-b pb-2">リワード（特典）について</h3>
-              <ul className="space-y-4 list-decimal list-inside marker:font-bold marker:text-emerald-500">
+              <ul className="space-y-4 list-disc list-inside marker:font-bold marker:text-emerald-500">
                 <li className="pl-2">ゲーム本体</li>
                 <li className="pl-2">限定壁紙</li>
                 <li className="pl-2">撮り下ろしボイス（１～２分）</li>

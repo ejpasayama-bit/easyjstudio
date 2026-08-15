@@ -107,7 +107,7 @@ const KickstarterGuide = () => {
             </div>
             <div className="space-y-6">
               <h3 className="text-xl font-bold text-slate-800 border-b pb-2">ストレッチゴール</h3>
-              <img src="/ks-guide/stretch_goal_jp1.png" alt="ストレッチゴール" className="w-full h-full object-cover" />
+              <img src="/ks-guide/stretch_goal_jp1.PNG" alt="ストレッチゴール" className="w-full h-full object-cover" />
               <p className="text-lg text-slate-600">
                 ※ストレッチゴールとは？<br />
                 目標金額を達成した後に用意されている「追加のミッション」です！<br />
@@ -163,7 +163,7 @@ const KickstarterGuide = () => {
         {/* フッター・お問い合わせ */}
         <section className="text-center pt-8">
           <p className="text-xl font-bold text-slate-800 mb-8">
-            ご不明な点は［問い合わせ先］までお気軽にどうぞ。<br/>
+            ご不明な点は上部メニューの［お問い合わせ］からお気軽にどうぞ。<br/>
             あなたの応援を、よりねと一緒にお待ちしています！
           </p>
           

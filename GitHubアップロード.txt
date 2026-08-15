@@ -2,6 +2,7 @@ VSCodeのターミナル（Ctrl+@）
 
 # 1.移動
 cd easyjstudio
+cd easyjstudio-local
 
 # 2. すべてのファイルをステージングに追加
 git add .

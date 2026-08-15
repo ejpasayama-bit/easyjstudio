@@ -8,7 +8,6 @@ import Concept from './pages/Concept';
 import Profile from './pages/Profile';
 import Contact from './pages/Contact';
 import Guidelines from './pages/Guidelines';
-import Local from './pages/Local';
 import ListeningAdventure from './pages/ListeningAdventure';
 import KickstarterGuide from './pages/KickstarterGuide';
 
@@ -25,7 +24,6 @@ function App() {
             <Route path="/profile" element={<Profile />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/guidelines" element={<Guidelines />} />
-            <Route path="/local" element={<Local />} />
             <Route path="/listening-adventure" element={<ListeningAdventure />} />
             <Route path="/ks-guide" element={<KickstarterGuide />} />
           </Routes>

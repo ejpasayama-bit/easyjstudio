@@ -179,7 +179,6 @@ const KickstarterGuide = () => {
               <h3 className="text-xl font-bold text-slate-800 mb-4">手順</h3>
               <ol className="space-y-4 list-decimal list-inside marker:font-bold marker:text-emerald-500">
                 <li className="pl-2">希望するプラン（リワード）を選び、緑色のボタン<strong className="text-slate-800">「Back this project／このプロジェクトをバックする」</strong>を押す
-                  {/* block mt-4 mb-2 で上下に余白を取り、md:w-1/2 で半分のサイズに */}
                   <img src="/ks-guide/sc1.png" alt="説明画像１" className="block w-full md:w-1/2 h-auto mt-4 mb-2 rounded-xl shadow-sm border border-slate-200" />
                 </li>
                 <li className="pl-2"><strong className="text-slate-800">「利用可能なリワード」</strong>からプランを選択（「◯◯のプレッジ」を押す）</li>
@@ -187,11 +186,46 @@ const KickstarterGuide = () => {
                 <li className="pl-2">Kickstarterにログイン（初めての方は名前・Eメール・パスワードを入力してアカウント作成）</li>
                 <li className="pl-2">支援金額とプランを確認し、クレジットカード情報を入力</li>
                 <li className="pl-2">チェックボタンを押して、「プレッジする」を押す
-                  {/* こちらも同様にサイズダウンと余白を追加 */}
                   <img src="/ks-guide/sc2.png" alt="説明画像２" className="block w-full md:w-1/2 h-auto mt-4 mb-2 rounded-xl shadow-sm border border-slate-200" />
                 </li>
                 <li className="pl-2">完了！ あとは募集終了をお待ちください（拡散もしていただけるとありがたいです！）</li>
               </ol>
+            </div>
+
+            {/* ★新規追加：プランの変更・アップグレードについて */}
+            <div className="bg-slate-50 p-6 md:p-8 rounded-2xl border-2 border-slate-200 shadow-sm relative overflow-hidden">
+              <h3 className="text-2xl font-bold text-slate-800 mb-4 flex items-center gap-2">
+                <span className="text-indigo-600">🔄</span> プランの変更・アップグレードについて
+              </h3>
+              <p className="mb-6 font-bold text-lg text-slate-700">
+                Kickstarterでは、キャンペーン期間中（11月19日まで）であれば、<span className="text-indigo-600 border-b-2 border-indigo-200 pb-0.5">いつでも自由に支援プランを変更・アップグレード</span>できます！
+              </p>
+
+              {/* ⚠️ 数量限定プランへの注意喚起 */}
+              <div className="bg-rose-50 p-6 rounded-2xl border border-rose-200 mb-8 relative">
+                <div className="absolute top-0 left-0 w-1.5 h-full bg-rose-500 rounded-l-2xl"></div>
+                <h4 className="text-lg font-bold text-rose-700 mb-4 flex items-center gap-2">
+                  <span>⚠️</span> 数量限定プランをご検討中の方へ重要なご注意
+                </h4>
+                <p className="text-rose-900 leading-relaxed font-medium">
+                  期間中いつでもプランの変更は可能ですが、<strong className="text-rose-700">パック3（限定30名）以上のプランはすべて数量限定（先着順）</strong>となっております。<br className="mb-3 hidden md:block" />
+                  「まずは下位プランで様子を見て、後からアップグレードしよう」とお考えの場合、いざ変更しようとした際にご希望の上位プランがすでに完売している可能性がございます。<br className="mb-3 hidden md:block" />
+                  「名前呼びボイス」など絶対に外せない限定リワードがある場合は、<strong className="text-rose-700 bg-rose-200 px-1 rounded">枠が残っているうちに初動で確保していただくこと</strong>を強くおすすめいたします！
+                </p>
+              </div>
+
+              {/* 変更の手順 */}
+              <div className="bg-white p-6 rounded-2xl border border-slate-200">
+                <h4 className="font-bold text-slate-800 mb-4">■ 変更の手順</h4>
+                <ol className="space-y-3 list-decimal list-inside marker:font-bold marker:text-indigo-500">
+                  <li className="pl-2">プロジェクトページのトップにある<strong className="text-slate-800">「プレッジを管理する（Manage your pledge）」</strong>ボタンをクリック。</li>
+                  <li className="pl-2"><strong className="text-slate-800">「プレッジを変更する（Change your pledge）」</strong>を選択。</li>
+                  <li className="pl-2">新しく希望するリワード（例：パック2など）を選び直して完了です！</li>
+                </ol>
+                <p className="mt-5 text-sm font-bold text-indigo-600 bg-indigo-50 p-3 rounded-lg border border-indigo-100">
+                  ※決済はキャンペーン終了時に一度だけ行われるため、二重に引き落とされることはありません。
+                </p>
+              </div>
             </div>
 
             <div className="bg-amber-50 p-6 rounded-2xl border border-amber-100">
@@ -221,7 +255,7 @@ const KickstarterGuide = () => {
           </p>
           
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="[URL]" target="_blank" rel="noopener noreferrer" className="bg-slate-800 text-white px-6 py-3 rounded-full font-bold hover:bg-slate-700 transition-colors">
+            <a href="https://store.steampowered.com/app/4993450/Oshi_Slang_Stream/" target="_blank" rel="noopener noreferrer" className="bg-slate-800 text-white px-6 py-3 rounded-full font-bold hover:bg-slate-700 transition-colors">
               Steam Wishlist
             </a>
             <a href="https://x.com/EasyJ_Studio" target="_blank" rel="noopener noreferrer" className="bg-black text-white px-6 py-3 rounded-full font-bold hover:bg-slate-800 transition-colors">

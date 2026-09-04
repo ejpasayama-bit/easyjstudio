@@ -1,21 +1,21 @@
 import React from 'react';
-import { useLanguage } from '../LanguageContext'; // ← 追加
+import { useLanguage } from '../LanguageContext';
 
 const Home = () => {
-  const { lang, t } = useLanguage(); // ← 辞書を呼び出す
+  const { lang, t } = useLanguage();
 
-  // プロジェクトの基本データ（タイトルや画像は言語共通なのでここに残す）
+  // プロジェクトの基本データ
   const projectsData = [
     {
       id: "01",
-      title: "Listening Adventure",
+      title: "Listening Adventure N5",
       img: "/listening-adventure.webp",
       color: "bg-indigo-100 text-indigo-600",
       link: "/listening-adventure"
     },
     {
       id: "02",
-      title: "VTuber Vocabulary Game",
+      title: "My Oshi Uses Too Much Slang!",
       img: "/vtuber-game.webp",
       color: "bg-pink-100 text-pink-600",
       link: "#"

@@ -47,8 +47,8 @@ const dictionaries = {
       title: "Profile",
       name: "FUKAYA",
       role: "App Developer / Japanese Language Teacher",
-      description: "While developing apps independently, I also teach as a Japanese language teacher. Currently distributing 'ListeningAdventure' as a mobile app and 'SlanGame (Temp)' on Steam.",
-      specialty: "Tech Stack: React, Unity, Tailwind CSS, Firebase"
+      description: "While developing apps independently, I also teach as a Japanese language teacher. Currently distributing 'Listening Adventure N5' as a mobile app and 'My Oshi Uses Too Much Slang!' on Steam.",
+      specialty: "Tech Stack: React, Unity, Tailwind CSS, Firebase, Supabase"
     },
     guidelines: {
       title: "Video Posting Guidelines",
@@ -151,8 +151,8 @@ const dictionaries = {
       name: "FUKAYA",
       role: "アプリ開発者 / 日本語教師",
       // ↓ プロフィールを更新しました！
-      description: "個人でアプリを開発する傍ら、日本語教師として教壇に立っています。\n「ListeningAdventure」をスマホアプリとして、「SlanGame（仮）」をSteamにて配信中。",
-      specialty: "技術スタック: React, Unity, Tailwind CSS, Firebase"
+      description: "個人でアプリを開発する傍ら、日本語教師として教壇に立っています。\n「リスニングアドベンチャーN5」をスマホアプリとして、「My Oshi Uses Too Much Slang!」をSteamにて配信中。",
+      specialty: "技術スタック: React, Unity, Tailwind CSS, Firebase, Supabase"
     },
     guidelines: {
       title: "動画投稿ガイドライン",

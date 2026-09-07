@@ -16,7 +16,7 @@ const Home = () => {
     {
       id: "02",
       title: "My Oshi Uses Too Much Slang!",
-      img: "/vtuber-game.webp",
+      img: "/mostms.webp",
       color: "bg-pink-100 text-pink-600",
       link: "#"
     },

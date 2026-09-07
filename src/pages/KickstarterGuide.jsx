@@ -208,7 +208,7 @@ const KickstarterGuide = () => {
                   <span>⚠️</span> 数量限定プランをご検討中の方へ重要なご注意
                 </h4>
                 <p className="text-rose-900 leading-relaxed font-medium">
-                  期間中いつでもプランの変更は可能ですが、<strong className="text-rose-700">パック3（限定30名）以上のプランはすべて数量限定（先着順）</strong>となっております。<br className="mb-3 hidden md:block" />
+                  期間中いつでもプランの変更は可能ですが、<strong className="text-rose-700">Lv.4以上のプランはすべて数量限定（先着順）</strong>となっております。<br className="mb-3 hidden md:block" />
                   「まずは下位プランで様子を見て、後からアップグレードしよう」とお考えの場合、いざ変更しようとした際にご希望の上位プランがすでに完売している可能性がございます。<br className="mb-3 hidden md:block" />
                   「名前呼びボイス」など絶対に外せない限定リワードがある場合は、<strong className="text-rose-700 bg-rose-200 px-1 rounded">枠が残っているうちに初動で確保していただくこと</strong>を強くおすすめいたします！
                 </p>

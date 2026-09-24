@@ -152,7 +152,7 @@ const KickstarterGuide = () => {
             <div className="space-y-6 mt-12">
               <h3 className="text-xl font-bold text-slate-800 border-b pb-2">ストレッチゴール</h3>
               <div className="flex justify-center">
-                <img src="/ks-guide/stretch_goal_jp1.PNG" alt="ストレッチゴール" className="w-full md:w-1/2 h-auto rounded-xl shadow-sm border border-slate-200" />
+                <img src="/ks-guide/stretch_goal_jp.PNG" alt="ストレッチゴール" className="w-full md:w-1/2 h-auto rounded-xl shadow-sm border border-slate-200" />
               </div>
               <p className="text-lg text-slate-600 bg-slate-50 p-6 rounded-2xl border border-slate-100">
                 <strong className="text-indigo-600 block mb-2">※ストレッチゴールとは？</strong>

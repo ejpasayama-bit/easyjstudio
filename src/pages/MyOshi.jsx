@@ -447,7 +447,7 @@ const MyOshi = () => {
                   <span>概要欄へのSteamストアページのリンク掲載は「任意」ですが、載せていただけると大変励みになります。</span>
                 </p>
                 <p className="text-sm text-slate-400 mt-4 pt-4 border-t border-white/10">
-                  ※体験版・製品版ともに上記のルールが適用されます。ルールは変更される場合がございます。 <a href="/guidelines">詳細はこちらをご確認ください。</a>
+                  ※体験版・製品版ともに上記のルールが適用されます。ルールは変更される場合がございます。 <u><a href="/guidelines">詳細はこちらをご確認ください。</a></u>
                 </p>
               </div>
             </div>

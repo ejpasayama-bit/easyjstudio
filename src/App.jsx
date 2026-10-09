@@ -9,6 +9,7 @@ import Profile from './pages/Profile';
 import Contact from './pages/Contact';
 import Guidelines from './pages/Guidelines';
 import ListeningAdventure from './pages/ListeningAdventure';
+import MyOshiUsesTooMuchSlang from './pages/MyOshi';
 import KickstarterGuide from './pages/KickstarterGuide';
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/guidelines" element={<Guidelines />} />
             <Route path="/listening-adventure" element={<ListeningAdventure />} />
+            <Route path="/myoshi" element={<MyOshiUsesTooMuchSlang />} />
             <Route path="/ks-guide" element={<KickstarterGuide />} />
           </Routes>
         </main>

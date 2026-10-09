@@ -18,7 +18,7 @@ const Home = () => {
       title: "My Oshi Uses Too Much Slang!",
       img: "/mostms.webp",
       color: "bg-pink-100 text-pink-600",
-      link: "#"
+      link: "/myoshi"
     },
     {
       id: "03",

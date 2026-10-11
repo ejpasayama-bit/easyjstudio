@@ -102,6 +102,83 @@ const dictionaries = {
       bottomCtaTitle: "Ready for your listening adventure?",
       demo_play:"▼ Scan to Play Demo! ▼",
       flyer_src: "/la_flyer_en.png",
+    },
+    myoshi:{
+      section1: {
+        subtitle: "A New Sensation Chat Adventure",
+        title: "Will Your Oshi \"Pick Up\" Your Comment?",
+        desc1_1: "She claims to be \"seiso\" (pure), but her emotions always slip out.",
+        desc1_2: "Dive into the stream of a fully energetic, straightforward, and slightly clumsy newbie VTuber as a listener!",
+        desc2_1: "Choose 4 slangs from the scrolling chat and throw in the perfect comment. ",
+        desc2_2: "With just one comment from you, her tension might skyrocket, or she could get seriously depressed and instantly BAN you!?"
+      },
+      section2: {
+        subtitle: "Clumsy and Cute",
+        title: "Supposed to be \"Seiso\", but she can't hide it",
+        desc1_1: "She claims to be a pure stream in the idol world.",
+        desc1_2: "But when faced with an unreasonable, punishing game, she clicks her tongue, bangs her desk, and reveals her true self...",
+        desc2_1: "She tries to cover it up, fails, gets roasted by listeners, and tries to cover it up again.",
+        desc2_2: "That repeating cycle is the best part of this game."
+      },
+      section3: {
+        subtitle: "In-Game System: SLANGPOOL",
+        title: "A \"Living\" Japanese Slang Dictionary",
+        desc1: "This game features \"SlangPool\", a dictionary system where you can learn \"living\" slangs actually used on the Japanese internet and in daily conversation.",
+        desc2_1: "Developed by an active Japanese language teacher. ",
+        desc2_2: "SlangPool doesn't just list meanings, but also explains the context of \"when to use it\". It supports 4 languages (Japanese, English, Simplified Chinese, Traditional Chinese), all with examples and audio.",
+        desc3: "The demo includes 41 words. The number of recorded words in the full version will increase depending on the support of the Kickstarter campaign!"
+      },
+      staff: {
+        headline_1: "Gorgeous Staff ",
+        headline_2: "Illustrating ",
+        headline_3: "Oshi ",
+        headline_4: "and ",
+        headline_5: "Slang",
+        role1: "Character Design",
+        name1: "Mogu Zaemon",
+        role2: "Scenario",
+        name2: "Seichi",
+        role3: "Voice Actor",
+        name3: "Hinata Aizawa",
+        role4: "Title Music",
+        name4: "Kyle Nagai"
+      },
+      product: {
+        title: "Product Information",
+        lblTitle: "Title",
+        valTitle: "My Oshi Uses Too Much Slang!",
+        lblGenre: "Genre",
+        valGenre: "Japanese Slang Learning Chat ADV",
+        lblPlayers: "Players",
+        valPlayers: "1 Player",
+        lblRelease: "Release Date",
+        valRelease: "Scheduled for August 2027",
+        valReleaseNote: "(Demo available now)",
+        lblPlatform: "Platform",
+        valPlatform: "PC (Steam)",
+        lblPrice: "Price",
+        valPrice: "¥2,000 (TBD)",
+        lblLang: "Supported Languages",
+        valLang: "Japanese, English, Simplified Chinese, Traditional Chinese",
+        valLangNote: "(Voices in Japanese only)",
+        lblDev: "Developer/Publisher",
+        valDev: "Fukaya (EasyJ Studio)"
+      },
+      media: {
+        title: "For Streamers & Media",
+        guidelineTitle: "Streaming & Video Posting Guidelines",
+        rule1: "Streaming and monetization are permitted <strong class=\"text-white\">without prior contact</strong>.",
+        rule2: "Including the <strong class=\"text-white\">game title</strong> in your stream title is a mandatory requirement.",
+        rule3: "Including a link to the Steam Store page in the description is \"optional\", but highly appreciated.",
+        ruleNote: "* The above rules apply to both the demo and full version. Rules are subject to change.",
+        ruleLink: "Click here for details.",
+        presskitTitle: "Press Kit",
+        presskitDesc: "We have prepared a folder with high-quality logos, screenshots, and key visuals for media coverage and introductions. Feel free to use them for writing articles or creating thumbnails.",
+        presskitBtn: "Download Press Kit (Google Drive)",
+        contactTitle: "Contact Us",
+        contactDesc: "For other individual consultations or interview requests, please feel free to contact us below.",
+        contactFormBtn: "Contact Form"
+      }
     }
   },
   jp: {
@@ -206,6 +283,83 @@ const dictionaries = {
       bottomCtaTitle: "さあ、リスニングの冒険に出かけよう！",
       demo_play:"▼ スマホで体験版をプレイ！ ▼",
       flyer_src: "/la_flyer.png",
+    },
+    myoshi:{
+      section1: {
+        subtitle: "新感覚チャットアドベンチャー",
+        title: "そのコメント、推しに\"拾われる\"か？",
+        desc1_1: "\"清楚\"を名乗るわりに、感情がダダ漏れ。",
+        desc1_2: "全力で、まっすぐで、ちょっとポンコツな新人VTuberの配信に、リスナーとして飛び込め！",
+        desc2_1: "流れるチャットから4つのスラングを選び、的確なコメントを投げ込む——。",
+        desc2_2: "あなたのコメント1つで、彼女のテンションは爆上がりしたり、逆にガチ凹みして即BAN対象になったり！？"
+      },
+      section2: {
+        subtitle: "ポンコツかわいい",
+        title: "\"清楚\"のはずが、隠しきれない",
+        desc1_1: "アイドル界の清流を名乗る彼女。",
+        desc1_2: "でも理不尽な苦行ゲームを前にすると、つい舌打ち、つい台パン、つい素の一面が……。",
+        desc2_1: "取り繕っては失敗し、リスナーに突っ込まれ、また取り繕う。",
+        desc2_2: "その繰り返しが、このゲームのいちばんの見どころ。"
+      },
+      section3: {
+        subtitle: "ゲーム内システム：SLANGPOOL",
+        title: "\"生きた\"日本語スラング辞典",
+        desc1: "本作には、日本のインターネットや日常会話で実際に使われている\"生きた\"スラングを学べる辞書システム「SlangPool」を搭載しています。",
+        desc2_1: "開発者は現役の日本語教師。",
+        desc2_2: "SlangPoolは単語の意味を並べるだけでなく、「どのような場面で使えるのか」という文脈まで解説します。日本語・英語・簡体字・繁体字の4言語に対応し、いずれも用例・音声つき。",
+        desc3: "体験版では41語を収録。製品版の収録語数は、Kickstarterキャンペーンの支援状況に応じて増えていきます！"
+      },
+      staff: {
+        headline_1: "豪華スタッフ",
+        headline_2: "が描く",
+        headline_3: "推し",
+        headline_4: "と",
+        headline_5: "スラング",
+        role1: "ママ＆パパ",
+        name1: "Mogu Zaemon",
+        role2: "シナリオ",
+        name2: "セーイチ",
+        role3: "声優",
+        name3: "愛沢日南",
+        role4: "タイトル楽曲",
+        name4: "永井カイル"
+      },
+      product: {
+        title: "製品情報",
+        lblTitle: "ゲームタイトル",
+        valTitle: "My Oshi Uses Too Much Slang! ～推しがスラングをめっちゃ使うんだが！～",
+        lblGenre: "ジャンル",
+        valGenre: "日本語スラング学習チャットADV",
+        lblPlayers: "プレイ人数",
+        valPlayers: "1人",
+        lblRelease: "リリース時期",
+        valRelease: "2027年8月予定",
+        valReleaseNote: "（体験版は公開中）",
+        lblPlatform: "対応機種",
+        valPlatform: "PC（Steam）",
+        lblPrice: "価格",
+        valPrice: "2,000円（予定）",
+        lblLang: "対応言語",
+        valLang: "日本語、英語、簡体字、繁体字",
+        valLangNote: "（ボイスは日本語のみ）",
+        lblDev: "開発・販売",
+        valDev: "Fukaya（EasyJ Studio）"
+      },
+      media: {
+        title: "配信者・メディアの方へ",
+        guidelineTitle: "配信・動画投稿ガイドライン",
+        rule1: "<strong class=\"text-white\">事前の連絡なし</strong>で、配信および収益化が可能です。",
+        rule2: "配信タイトルに<strong class=\"text-white\">ゲーム名を含めること</strong>が必須条件です。",
+        rule3: "概要欄へのSteamストアページのリンク掲載は「任意」ですが、載せていただけると大変励みになります。",
+        ruleNote: "※体験版・製品版ともに上記のルールが適用されます。ルールは変更される場合がございます。",
+        ruleLink: "詳細はこちらをご確認ください。",
+        presskitTitle: "プレスキット (Press Kit)",
+        presskitDesc: "メディア掲載・ご紹介用の高画質ロゴ、スクリーンショット、キービジュアル等をまとめたフォルダをご用意しています。記事作成やサムネイル制作に自由にご利用ください。",
+        presskitBtn: "プレスキットをダウンロード (Google Drive)",
+        contactTitle: "お問い合わせ",
+        contactDesc: "その他、個別のご相談や取材のご依頼は、以下よりお気軽にご連絡ください。",
+        contactFormBtn: "お問い合わせフォーム"
+      }
     }
   }
 };

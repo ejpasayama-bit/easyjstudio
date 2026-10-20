@@ -9,9 +9,21 @@ const KickstarterGuide = () => {
         <h1 className="text-3xl md:text-5xl font-extrabold mb-4 tracking-tight">
           日本の方へ
         </h1>
-        <p className="text-lg md:text-2xl font-medium opacity-90">
+        <p className="text-lg md:text-2xl font-medium opacity-90 mb-8">
           Kickstarterが初めての方向けページ
         </p>
+        
+        {/* ▼ 追加：ファーストビューの目立つKickstarterリンクボタン */}
+        <div className="flex justify-center mt-6">
+          <a 
+            href="https://www.kickstarter.com/projects/easyjstudio/my-oshi-uses-too-much-slang-a-japanese-slang-chat-adv?ref=48tzq4" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center bg-emerald-500 hover:bg-emerald-400 text-white text-xl md:text-2xl font-bold py-5 px-10 rounded-full shadow-[0_0_20px_rgba(16,185,129,0.5)] transition-all transform hover:scale-105 animate-pulse"
+          >
+            プロジェクトページ（ご支援）はこちら！
+          </a>
+        </div>
       </section>
 
       <div className="max-w-4xl mx-auto px-6 md:px-8 mt-12 space-y-16">
@@ -192,16 +204,16 @@ const KickstarterGuide = () => {
               </ol>
             </div>
 
-            {/* ★新規追加：プランの変更・アップグレードについて */}
+            {/* プランの変更・アップグレードについて */}
             <div className="bg-slate-50 p-6 md:p-8 rounded-2xl border-2 border-slate-200 shadow-sm relative overflow-hidden">
               <h3 className="text-2xl font-bold text-slate-800 mb-4 flex items-center gap-2">
                 <span className="text-indigo-600">🔄</span> プランの変更・アップグレードについて
               </h3>
               <p className="mb-6 font-bold text-lg text-slate-700">
-                Kickstarterでは、キャンペーン期間中（11月19日まで）であれば、<span className="text-indigo-600 border-b-2 border-indigo-200 pb-0.5">いつでも自由に支援プランを変更・アップグレード</span>できます！
+                Kickstarterでは、キャンペーン期間中（11月20日まで）であれば、<span className="text-indigo-600 border-b-2 border-indigo-200 pb-0.5">いつでも自由に支援プランを変更・アップグレード</span>できます！
               </p>
 
-              {/* ⚠️ 数量限定プランへの注意喚起 */}
+              {/* 数量限定プランへの注意喚起 */}
               <div className="bg-rose-50 p-6 rounded-2xl border border-rose-200 mb-8 relative">
                 <div className="absolute top-0 left-0 w-1.5 h-full bg-rose-500 rounded-l-2xl"></div>
                 <h4 className="text-lg font-bold text-rose-700 mb-4 flex items-center gap-2">
@@ -242,6 +254,21 @@ const KickstarterGuide = () => {
               <p className="text-blue-900 leading-relaxed">
                 本プロジェクトは日本円で設定されています。<strong className="bg-blue-200 px-1 rounded">画面に表示されている金額（¥〇〇）がそのまま引き落とされます。</strong>海外サイトにありがちな「為替レートの変動による追加請求」などは一切かかりませんので、安心してご支援ください。
               </p>
+            </div>
+
+            {/* ▼ 追加：手順直後のダメ押しKickstarterリンクボタン */}
+            <div className="mt-12 text-center border-t-2 border-dashed border-slate-200 pt-12">
+              <h3 className="text-2xl font-bold text-slate-800 mb-6">
+                支援の手順がわかったら、さっそくこちらからプロジェクトへ！
+              </h3>
+              <a 
+                href="https://www.kickstarter.com/projects/easyjstudio/my-oshi-uses-too-much-slang-a-japanese-slang-chat-adv?ref=48tzq4" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center bg-emerald-500 hover:bg-emerald-400 text-white text-xl md:text-2xl font-bold py-5 px-10 rounded-full shadow-[0_0_20px_rgba(16,185,129,0.5)] transition-all transform hover:scale-105"
+              >
+                Kickstarterプロジェクトページへ
+              </a>
             </div>
 
           </div>

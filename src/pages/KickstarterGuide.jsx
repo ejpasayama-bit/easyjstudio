@@ -291,9 +291,6 @@ const KickstarterGuide = () => {
             <a href="https://easyjstudio.com/" className="bg-indigo-600 text-white px-6 py-3 rounded-full font-bold hover:bg-indigo-700 transition-colors">
               Website
             </a>
-            <a href="https://discord.gg/NK3XXYcYqN" target="_blank" rel="noopener noreferrer" className="bg-[#5865F2] text-white px-6 py-3 rounded-full font-bold hover:bg-[#4752C4] transition-colors">
-              Discord
-            </a>
           </div>
         </section>
 

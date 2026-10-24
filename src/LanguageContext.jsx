@@ -16,7 +16,7 @@ const dictionaries = {
       projects: [
         {
           tag: "Language / Education",
-          desc: "A story-driven listening app for JLPT N5. Master listening comprehension through fun, academically-backed methods."
+          desc: "A story-driven listening app for N5 level. Master listening comprehension through fun, academically-backed methods."
         },
         {
           tag: "Language / Game",
@@ -83,16 +83,17 @@ const dictionaries = {
     lalp: {
       heroTitle: "Opening the way for learners\nListening Adventure N5",
       heroSubtitle: "A listening-focused learning app!",
+      heroCefr: "(CEFR A1-A2 Level)",
       ctaButton: "Try the Free Demo!",
       introTitle: "Struggling to find time for Japanese study?",
-      introText: "Build your N5 listening skills effortlessly in your spare time, all while playing a game.",
+      introText: "Build your N5 (CEFR A1-A2 Level) listening skills effortlessly in your spare time, all while playing a game.",
       featuresTitle: "Core Features",
       feature1Title: "Listening-Focused!",
       feature1Desc: "Quality listening practice for foreign workers and overseas learners. Compact 5-question stages fit easily into daily spare moments.",
       feature2Title: "Game + Japanese Learning!",
       feature2Desc: "Learn through a story-driven game that breaks the wall of 'language learning takes time.'",
       feature3Title: "Supervised by Prof. Isono!",
-      feature3Desc: "Not just casual gaming — supervised by Prof. Isono, with practical content aimed at passing the JLPT, J.TEST, NAT-TEST, JPT, and more.",
+      feature3Desc: "Not just casual gaming — supervised by Prof. Isono, with practical content aimed at passing the JLPT, PJC, J.TEST, NAT-TEST, JPT, and more.",
       creditTitle: "Developer & Supervisor",
       devRole: "Japanese Teacher / EdTech Creator",
       devName: "Developer: N. Fukaya",
@@ -101,7 +102,10 @@ const dictionaries = {
       releaseDate: "Scheduled Release: February 2027",
       bottomCtaTitle: "Ready for your listening adventure?",
       demo_play:"▼ Scan to Play Demo! ▼",
-      flyer_src: "/la_flyer_en.png",
+      flyer_src: "/la_flyer_en.webp",
+      b2bTitle: "For Educational Institutions & Supervising Organizations",
+      b2bDesc: "We also offer a bulk introduction version (fully offline version) for B2B use.\nPlease feel free to contact us below for detailed specifications and consultation on introduction costs.",
+      b2bBtn: "Contact for Corporate Use",
     },
     myoshi:{
       section1: {
@@ -196,7 +200,7 @@ const dictionaries = {
       projects: [
         {
           tag: "Language / Education",
-          desc: "JLPT N5レベルを対象とした、ストーリー主導のリスニング学習アプリ。学術的根拠に基づき、楽しみながら「聴解」をマスターします。"
+          desc: "JLPT N5(参照枠A1-A2相当)レベルを対象とした、ストーリー主導のリスニング学習アプリ。学術的根拠に基づき、楽しみながら「聴解」をマスターします。"
         },
         {
           tag: "Language / Game",
@@ -264,16 +268,17 @@ const dictionaries = {
     lalp: {
       heroTitle: "学習者の道をひらく\n リスニング アドベンチャー N5",
       heroSubtitle: "リスニング特化型学習アプリ",
+      heroCefr: "（参照枠A1-A2相当）",
       ctaButton: "体験版はコチラ！",
       introTitle: "「日本語学習、時間がなくて大変ではありませんか？」",
-      introText: "スキマ時間を使って、ゲーム感覚で無理なくN5レベルの聴解力を身につけましょう。",
+      introText: "スキマ時間を使って、ゲーム感覚で無理なくN5(参照枠A1-A2相当）レベルの聴解力を身につけましょう。",
       featuresTitle: "3つの特徴",
       feature1Title: "リスニング特化！",
       feature1Desc: "地域の外国人就労者や海外学習者へ、良質なリスニング機会を提供します。1ステージ5問のコンパクト設計で、毎日のスキマ時間に無理なく学習を継続できます。",
       feature2Title: "ゲーム＋日本語学習！",
       feature2Desc: "ストーリーのあるゲームで学習することができるため、「言語学習＝時間を取る」の壁を壊します。",
       feature3Title: "磯野教授監修！",
-      feature3Desc: "磯野教授監修のため、ただ楽しくゲーム感覚で行うだけではなくJLPT、J.TESTやNAT-TEST、JPTなどの試験の合格を目指した実践的な学習コンテンツとなっています。",
+      feature3Desc: "磯野教授監修のため、ただ楽しくゲーム感覚で行うだけではなくJLPTやPJC、J.TEST、NAT-TEST、JPTなどの試験の合格を目指した実践的な学習コンテンツとなっています。",
       creditTitle: "開発・監修",
       devRole: "日本語教師 / EdTechクリエイター",
       devName: "開発：深谷",
@@ -282,7 +287,10 @@ const dictionaries = {
       releaseDate: "2027年2月リリース予定",
       bottomCtaTitle: "さあ、リスニングの冒険に出かけよう！",
       demo_play:"▼ スマホで体験版をプレイ！ ▼",
-      flyer_src: "/la_flyer.png",
+      flyer_src: "/la_flyer_jp.webp",
+      b2bTitle: "教育機関・監理団体様へ",
+      b2bDesc: "B2Bとしての一括導入版（完全オフライン版）もご用意可能です。\n詳細な仕様や導入費用に関するご相談は、以下よりお気軽にお問い合わせください。",
+      b2bBtn: "法人導入のお問い合わせ",
     },
     myoshi:{
       section1: {

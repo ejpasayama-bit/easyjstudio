@@ -23,16 +23,8 @@ const dictionaries = {
           desc: "A Live2D-powered vocabulary game for Japanese pop culture enthusiasts. Discover a new way to learn through internet slang and VTuber culture."
         },
         {
-          tag: "Utility / Analysis",
-          desc: "An analysis tool that visualizes trading thought processes and mentality. Supports trader growth based on personal experience."
-        },
-        {
-          tag: "Utility / Streaming",
-          desc: "An analysis tool that visualizes trading thought processes and mentality. Supports trader growth based on personal experience."
-        },
-        {
           tag: "Utility / Teaching",
-          desc: "An AI-powered lesson planning software. It eliminates the reliance on individual teaching skills to deliver high-quality lessons to learners."
+          desc: "An AI-powered lesson planning software. It eliminates the reliance on individual teaching skills to deliver high-quality lessons to learners. [Now Developing]"
         }
       ]
     },
@@ -104,7 +96,7 @@ const dictionaries = {
       demo_play:"▼ Scan to Play Demo! ▼",
       flyer_src: "/la_flyer_en.webp",
       b2bTitle: "For Educational Institutions & Supervising Organizations",
-      b2bDesc: "We also offer a bulk introduction version (fully offline version) for B2B use.\nPlease feel free to contact us below for detailed specifications and consultation on introduction costs.",
+      b2bDesc: "We also offer a bulk introduction version (fully offline version) for B to B use.\nPlease feel free to contact us below for detailed specifications and consultation on introduction costs.",
       b2bBtn: "Contact for Corporate Use",
     },
     myoshi:{
@@ -200,23 +192,15 @@ const dictionaries = {
       projects: [
         {
           tag: "Language / Education",
-          desc: "JLPT N5(参照枠A1-A2相当)レベルを対象とした、ストーリー主導のリスニング学習アプリ。学術的根拠に基づき、楽しみながら「聴解」をマスターします。"
+          desc: "JLPT N5(日本語教育の参照枠A1-A2相当)レベルを対象とした、ストーリー主導のリスニング学習アプリ。学術的根拠に基づき、楽しみながら「聴解」をマスターします。"
         },
         {
           tag: "Language / Game",
           desc: "Live2Dを活用した、日本ポップカルチャー愛好家のための語彙学習ゲーム。ネットスラングやVTuber文化を通じて、新しい学習体験を提供します。"
         },
         {
-          tag: "Utility / Analysis",
-          desc: "トレード時の思考プロセスとメンタルを可視化する分析ツール。自らの経験に基づき、トレーダーの成長をサポートします。"
-        },
-        {
-          tag: "Utility / Streaming",
-          desc: "配信事故を未然に防ぐストリーマー専用ツール。煩雑な配信前の設定確認を可視化し、チェック作業を自動化します。"
-        },
-        {
           tag: "Utility / Teaching",
-          desc: "AIによる教案作成支援ソフト。教師スキルの属人化を排除し、学習者に質の高い授業を提供します。"
+          desc: "AIによる教案作成支援ソフト。教師スキルの属人化を排除し、学習者に質の高い授業を提供します。(現在開発中)"
         }
       ]
     },
@@ -268,10 +252,10 @@ const dictionaries = {
     lalp: {
       heroTitle: "学習者の道をひらく\n リスニング アドベンチャー N5",
       heroSubtitle: "リスニング特化型学習アプリ",
-      heroCefr: "（参照枠A1-A2相当）",
+      heroCefr: "（日本語教育の参照枠A1-A2相当）",
       ctaButton: "体験版はコチラ！",
       introTitle: "「日本語学習、時間がなくて大変ではありませんか？」",
-      introText: "スキマ時間を使って、ゲーム感覚で無理なくN5(参照枠A1-A2相当）レベルの聴解力を身につけましょう。",
+      introText: "スキマ時間を使って、ゲーム感覚で無理なくN5(日本語教育の参照枠A1-A2相当）レベルの聴解力を身につけましょう。",
       featuresTitle: "3つの特徴",
       feature1Title: "リスニング特化！",
       feature1Desc: "地域の外国人就労者や海外学習者へ、良質なリスニング機会を提供します。1ステージ5問のコンパクト設計で、毎日のスキマ時間に無理なく学習を継続できます。",
@@ -287,9 +271,9 @@ const dictionaries = {
       releaseDate: "2027年2月リリース予定",
       bottomCtaTitle: "さあ、リスニングの冒険に出かけよう！",
       demo_play:"▼ スマホで体験版をプレイ！ ▼",
-      flyer_src: "/la_flyer_jp.webp",
+      flyer_src: "/la_flyer_jp2.webp",
       b2bTitle: "教育機関・監理団体様へ",
-      b2bDesc: "B2Bとしての一括導入版（完全オフライン版）もご用意可能です。\n詳細な仕様や導入費用に関するご相談は、以下よりお気軽にお問い合わせください。",
+      b2bDesc: "B to Bとしての一括導入版（完全オフライン版）もご用意可能です。\n詳細な仕様や導入費用に関するご相談は、以下よりお気軽にお問い合わせください。",
       b2bBtn: "法人導入のお問い合わせ",
     },
     myoshi:{

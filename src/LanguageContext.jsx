@@ -134,10 +134,10 @@ const dictionaries = {
         name1: "Mogu Zaemon",
         role2: "Scenario",
         name2: "Seichi",
-        role3: "Voice Actor",
+        role3: "Voice Actress",
         name3: "Aizawa Hina",
         role4: "Title Music",
-        name4: "Kyle Nagai"
+        name4: "KAIRU NAGAI"
       },
       product: {
         title: "Product Information",

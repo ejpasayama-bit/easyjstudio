@@ -135,7 +135,7 @@ const dictionaries = {
         role2: "Scenario",
         name2: "Seichi",
         role3: "Voice Actor",
-        name3: "Hinata Aizawa",
+        name3: "Aizawa Hina",
         role4: "Title Music",
         name4: "Kyle Nagai"
       },

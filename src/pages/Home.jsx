@@ -22,23 +22,6 @@ const Home = () => {
     },
     {
       id: "03",
-      title: "FX Trading Journal",
-      img: "/fx-journal.webp",
-      color: "bg-emerald-100 text-emerald-600",
-      link: "#"
-    },
-    {
-      id: "04",
-      title: "StreamGreen",
-      img: {
-        jp: "/streamgreen-jp.webp", // 日本語版の画像
-        en: "/streamgreen-en.webp"  // 英語版の画像
-      },
-      color: "bg-emerald-100 text-emerald-600",
-      link: "https://apps.microsoft.com/detail/9P67P9W0W4ZV"
-    },
-    {
-      id: "05",
       title: "Auto Lesson Plan",
       img: "",
       color: "bg-emerald-100 text-emerald-600",

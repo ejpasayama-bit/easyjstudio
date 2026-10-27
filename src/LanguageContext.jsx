@@ -215,7 +215,6 @@ const dictionaries = {
       title: "プロフィール",
       name: "FUKAYA",
       role: "アプリ開発者 / 日本語教師",
-      // ↓ プロフィールを更新しました！
       description: "個人でアプリを開発する傍ら、日本語教師として教壇に立っています。\n「リスニングアドベンチャーN5」をスマホアプリとして、「My Oshi Uses Too Much Slang!」をSteamにて配信中。",
       specialty: "技術スタック: React, Unity, Tailwind CSS, Firebase, Supabase"
     },
@@ -261,8 +260,8 @@ const dictionaries = {
       feature1Desc: "地域の外国人就労者や海外学習者へ、良質なリスニング機会を提供します。1ステージ5問のコンパクト設計で、毎日のスキマ時間に無理なく学習を継続できます。",
       feature2Title: "ゲーム＋日本語学習！",
       feature2Desc: "ストーリーのあるゲームで学習することができるため、「言語学習＝時間を取る」の壁を壊します。",
-      feature3Title: "磯野教授監修！",
-      feature3Desc: "磯野教授監修のため、ただ楽しくゲーム感覚で行うだけではなくJLPTやPJC、J.TEST、NAT-TEST、JPTなどの試験の合格を目指した実践的な学習コンテンツとなっています。",
+      feature3Title: "大学教授監修！",
+      feature3Desc: "名古屋商科大学の磯野教授監修のため、ただ楽しくゲーム感覚で行うだけではなくJLPTやPJC、J.TEST、NAT-TEST、JPTなどの試験の合格を目指した実践的な学習コンテンツとなっています。",
       creditTitle: "開発・監修",
       devRole: "登録日本語教員 / EdTechクリエイター",
       devName: "開発：深谷",

@@ -264,7 +264,7 @@ const dictionaries = {
       feature3Title: "磯野教授監修！",
       feature3Desc: "磯野教授監修のため、ただ楽しくゲーム感覚で行うだけではなくJLPTやPJC、J.TEST、NAT-TEST、JPTなどの試験の合格を目指した実践的な学習コンテンツとなっています。",
       creditTitle: "開発・監修",
-      devRole: "日本語教師 / EdTechクリエイター",
+      devRole: "登録日本語教員 / EdTechクリエイター",
       devName: "開発：深谷",
       supRole: "名古屋商科大学 国際学部 学部長／教授\n博士（日本語教育学）",
       supName: "監修：磯野 英治",

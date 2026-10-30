@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useLanguage } from '../LanguageContext';
 import { motion } from 'framer-motion';
+import ReactGA from "react-ga4";
 
 const MyOshi = () => {
   const [isVideoModalOpen, setIsVideoModalOpen] = useState(false);
@@ -33,10 +34,30 @@ const MyOshi = () => {
             <img src="/myoshi/top.webp" alt="My Oshi Uses Too Much Slang!" className="w-full h-auto drop-shadow-2xl mb-12" />
             
             <div className="flex flex-wrap justify-center gap-6">
-              <a href="https://www.kickstarter.com/projects/easyjstudio/my-oshi-uses-too-much-slang-a-japanese-slang-chat-adv" className="bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-4 px-8 rounded-full shadow-[0_0_20px_rgba(16,185,129,0.5)] transition-all transform hover:scale-105">
+              <a 
+                href="https://www.kickstarter.com/projects/easyjstudio/my-oshi-uses-too-much-slang-a-japanese-slang-chat-adv" 
+                className="bg-emerald-500 hover:bg-emerald-400 text-white font-bold py-4 px-8 rounded-full shadow-[0_0_20px_rgba(16,185,129,0.5)] transition-all transform hover:scale-105"
+                onClick={() => {
+                  ReactGA.event("purchase", {
+                    transaction_id: "ks_oshi_" + new Date().getTime(),
+                    value: 1,
+                    currency: "JPY",
+                    items: [
+                      {
+                        item_id: "ks_project",
+                        item_name: "Oshi Kickstarter Top Button"
+                      }
+                    ]
+                  });
+                }}
+              >
                 Check Kickstarter !
               </a>
-              <a href="https://store.steampowered.com/app/4993450" className="bg-[#1b2838] hover:bg-[#2a475e] text-white border border-[#66c0f4] font-bold py-4 px-8 rounded-full shadow-[0_0_20px_rgba(102,192,244,0.3)] transition-all transform hover:scale-105 flex items-center gap-2">
+              
+              <a 
+                href="https://store.steampowered.com/app/4993450" 
+                className="bg-[#1b2838] hover:bg-[#2a475e] text-white border border-[#66c0f4] font-bold py-4 px-8 rounded-full shadow-[0_0_20px_rgba(102,192,244,0.3)] transition-all transform hover:scale-105 flex items-center gap-2"
+              >
                 Wishlist on Steam
               </a>
             </div>
